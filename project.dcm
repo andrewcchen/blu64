@@ -1,0 +1,36 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BL653
+D BL653 Series Bluetooth 5.1 + 802.15.4 + NFC Module
+F https://www.lairdconnect.com/documentation/datasheet-bl653-series
+$ENDCMP
+#
+$CMP BQ24295
+D I2C Controlled 3A Single Cell USB Charger With Narrow VDC
+K battery charger i2c usb
+F https://www.ti.com/lit/ds/symlink/bq24295.pdf
+$ENDCMP
+#
+$CMP MCP1811
+D 150mA Ultra-Low Quiescent Current LDO Regulator
+K linear regulator ldo fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP1811A-11B-12A-12B-Data-Sheet-20006088B.pdf
+$ENDCMP
+#
+$CMP MCP73832-2-MC
+D Single cell, Li-Ion/Li-Po charge management controller, 4.20V, Open-Drain Status Output
+K battery charger lithium
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf
+$ENDCMP
+#
+$CMP VBAT
+D Power symbol creates a global label with name "VBAT"
+K power-flag
+$ENDCMP
+#
+$CMP VSYS
+D Power symbol creates a global label with name "VSYS"
+K power-flag
+$ENDCMP
+#
+#End Doc Library

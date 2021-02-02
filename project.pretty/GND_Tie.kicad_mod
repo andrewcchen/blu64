@@ -1,0 +1,11 @@
+(module GND_Tie (layer F.Cu) (tedit 60182726)
+  (fp_text reference REF** (at 0 -0.05) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value GND_Tie (at 0 0) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_poly (pts (xy -0.2 0.3) (xy -0.2 -0.3) (xy 0.2 -0.3) (xy 0.2 0.3)) (layer F.Cu) (width 0))
+  (pad 1 smd oval (at 0 0.3) (size 0.4 0.2) (layers F.Cu))
+  (pad 2 smd oval (at 0 -0.3) (size 0.4 0.2) (layers F.Cu))
+)

@@ -1,0 +1,1867 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D1
+U 1 1 60178EC5
+P 2100 1700
+F 0 "D1" V 2000 1750 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 2100 1826 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2000 1600 50  0001 C CNN
+F 3 "~" H 2000 1600 50  0001 C CNN
+F 4 "BAS70-06" H 2100 1700 50  0001 C CNN "Part"
+	1    2100 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push S2
+U 1 1 60181D00
+P 2800 1850
+F 0 "S2" H 2800 1800 50  0000 C CNN
+F 1 "SW_Push" V 2755 1802 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2800 2050 50  0001 C CNN
+F 3 "~" H 2800 2050 50  0001 C CNN
+	1    2800 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push S3
+U 1 1 60195C28
+P 3300 1850
+F 0 "S3" H 3300 1800 50  0000 C CNN
+F 1 "SW_Push" V 3255 1802 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 3300 2050 50  0001 C CNN
+F 3 "~" H 3300 2050 50  0001 C CNN
+	1    3300 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D2
+U 1 1 60195C2E
+P 3100 1700
+F 0 "D2" V 3000 1750 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 3100 1826 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3000 1600 50  0001 C CNN
+F 3 "~" H 3000 1600 50  0001 C CNN
+F 4 "BAS70-06" H 3100 1700 50  0001 C CNN "Part"
+	1    3100 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push S4
+U 1 1 60195C3A
+P 3800 1850
+F 0 "S4" H 3800 1800 50  0000 C CNN
+F 1 "SW_Push" V 3755 1802 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 3800 2050 50  0001 C CNN
+F 3 "~" H 3800 2050 50  0001 C CNN
+	1    3800 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push S5
+U 1 1 60199B8A
+P 4300 1850
+F 0 "S5" H 4300 1800 50  0000 C CNN
+F 1 "SW_Push" V 4255 1802 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 4300 2050 50  0001 C CNN
+F 3 "~" H 4300 2050 50  0001 C CNN
+	1    4300 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D3
+U 1 1 60199B90
+P 4100 1700
+F 0 "D3" V 4000 1750 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 4100 1826 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4000 1600 50  0001 C CNN
+F 3 "~" H 4000 1600 50  0001 C CNN
+F 4 "BAS70-06" H 4100 1700 50  0001 C CNN "Part"
+	1    4100 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push S6
+U 1 1 60199B9C
+P 4800 1850
+F 0 "S6" H 4800 1800 50  0000 C CNN
+F 1 "SW_Push" V 4755 1802 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 4800 2050 50  0001 C CNN
+F 3 "~" H 4800 2050 50  0001 C CNN
+	1    4800 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push S7
+U 1 1 60199BA2
+P 5300 1850
+F 0 "S7" H 5300 1800 50  0000 C CNN
+F 1 "SW_Push" V 5255 1802 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 5300 2050 50  0001 C CNN
+F 3 "~" H 5300 2050 50  0001 C CNN
+	1    5300 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D4
+U 1 1 60199BA8
+P 5100 1700
+F 0 "D4" V 5000 1750 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 5100 1826 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5000 1600 50  0001 C CNN
+F 3 "~" H 5000 1600 50  0001 C CNN
+F 4 "BAS70-06" H 5100 1700 50  0001 C CNN "Part"
+	1    5100 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push S8
+U 1 1 60199BB4
+P 5800 1850
+F 0 "S8" H 5800 1800 50  0000 C CNN
+F 1 "SW_Push" V 5755 1802 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 5800 2050 50  0001 C CNN
+F 3 "~" H 5800 2050 50  0001 C CNN
+	1    5800 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push S9
+U 1 1 601A1464
+P 6300 1850
+F 0 "S9" H 6300 1800 50  0000 C CNN
+F 1 "SW_Push" V 6255 1802 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6300 2050 50  0001 C CNN
+F 3 "~" H 6300 2050 50  0001 C CNN
+	1    6300 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D5
+U 1 1 601A146A
+P 6100 1700
+F 0 "D5" V 6000 1750 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 6100 1826 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6000 1600 50  0001 C CNN
+F 3 "~" H 6000 1600 50  0001 C CNN
+F 4 "BAS70-06" H 6100 1700 50  0001 C CNN "Part"
+	1    6100 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push S10
+U 1 1 601A1476
+P 6800 1850
+F 0 "S10" H 6800 1800 50  0000 C CNN
+F 1 "SW_Push" V 6755 1802 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6800 2050 50  0001 C CNN
+F 3 "~" H 6800 2050 50  0001 C CNN
+	1    6800 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push S11
+U 1 1 601A147C
+P 7300 1850
+F 0 "S11" H 7300 1800 50  0000 C CNN
+F 1 "SW_Push" V 7255 1802 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7300 2050 50  0001 C CNN
+F 3 "~" H 7300 2050 50  0001 C CNN
+	1    7300 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D6
+U 1 1 601A1482
+P 7100 1700
+F 0 "D6" V 7000 1750 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 7100 1826 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7000 1600 50  0001 C CNN
+F 3 "~" H 7000 1600 50  0001 C CNN
+F 4 "BAS70-06" H 7100 1700 50  0001 C CNN "Part"
+	1    7100 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push S12
+U 1 1 601A148E
+P 7800 1850
+F 0 "S12" H 7800 1800 50  0000 C CNN
+F 1 "SW_Push" V 7755 1802 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7800 2050 50  0001 C CNN
+F 3 "~" H 7800 2050 50  0001 C CNN
+	1    7800 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push S13
+U 1 1 601A1494
+P 8300 1850
+F 0 "S13" H 8300 1800 50  0000 C CNN
+F 1 "SW_Push" V 8255 1802 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 8300 2050 50  0001 C CNN
+F 3 "~" H 8300 2050 50  0001 C CNN
+	1    8300 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D7
+U 1 1 601A149A
+P 8100 1700
+F 0 "D7" V 8000 1750 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 8100 1826 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8000 1600 50  0001 C CNN
+F 3 "~" H 8000 1600 50  0001 C CNN
+F 4 "BAS70-06" H 8100 1700 50  0001 C CNN "Part"
+	1    8100 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push S14
+U 1 1 601A14A6
+P 8800 1850
+F 0 "S14" H 8800 1800 50  0000 C CNN
+F 1 "SW_Push" V 8755 1802 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_2.00u_PCB" H 8800 2050 50  0001 C CNN
+F 3 "~" H 8800 2050 50  0001 C CNN
+	1    8800 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push S15
+U 1 1 601BB372
+P 2300 2350
+F 0 "S15" H 2300 2300 50  0000 C CNN
+F 1 "SW_Push" V 2255 2302 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.50u_PCB" H 2300 2550 50  0001 C CNN
+F 3 "~" H 2300 2550 50  0001 C CNN
+	1    2300 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D8
+U 1 1 601BB378
+P 2100 2200
+F 0 "D8" V 2000 2250 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 2100 2326 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2000 2100 50  0001 C CNN
+F 3 "~" H 2000 2100 50  0001 C CNN
+F 4 "BAS70-06" H 2100 2200 50  0001 C CNN "Part"
+	1    2100 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push S16
+U 1 1 601BB384
+P 2800 2350
+F 0 "S16" H 2800 2300 50  0000 C CNN
+F 1 "SW_Push" V 2755 2302 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2800 2550 50  0001 C CNN
+F 3 "~" H 2800 2550 50  0001 C CNN
+	1    2800 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push S17
+U 1 1 601BB38A
+P 3300 2350
+F 0 "S17" H 3300 2300 50  0000 C CNN
+F 1 "SW_Push" V 3255 2302 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 3300 2550 50  0001 C CNN
+F 3 "~" H 3300 2550 50  0001 C CNN
+	1    3300 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D9
+U 1 1 601BB390
+P 3100 2200
+F 0 "D9" V 3000 2250 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 3100 2326 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3000 2100 50  0001 C CNN
+F 3 "~" H 3000 2100 50  0001 C CNN
+F 4 "BAS70-06" H 3100 2200 50  0001 C CNN "Part"
+	1    3100 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push S18
+U 1 1 601BB39C
+P 3800 2350
+F 0 "S18" H 3800 2300 50  0000 C CNN
+F 1 "SW_Push" V 3755 2302 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 3800 2550 50  0001 C CNN
+F 3 "~" H 3800 2550 50  0001 C CNN
+	1    3800 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push S19
+U 1 1 601BB3A2
+P 4300 2350
+F 0 "S19" H 4300 2300 50  0000 C CNN
+F 1 "SW_Push" V 4255 2302 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 4300 2550 50  0001 C CNN
+F 3 "~" H 4300 2550 50  0001 C CNN
+	1    4300 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D10
+U 1 1 601BB3A8
+P 4100 2200
+F 0 "D10" V 4000 2250 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 4100 2326 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4000 2100 50  0001 C CNN
+F 3 "~" H 4000 2100 50  0001 C CNN
+F 4 "BAS70-06" H 4100 2200 50  0001 C CNN "Part"
+	1    4100 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push S20
+U 1 1 601BB3B4
+P 4800 2350
+F 0 "S20" H 4800 2300 50  0000 C CNN
+F 1 "SW_Push" V 4755 2302 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 4800 2550 50  0001 C CNN
+F 3 "~" H 4800 2550 50  0001 C CNN
+	1    4800 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push S21
+U 1 1 601BB3BA
+P 5300 2350
+F 0 "S21" H 5300 2300 50  0000 C CNN
+F 1 "SW_Push" V 5255 2302 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 5300 2550 50  0001 C CNN
+F 3 "~" H 5300 2550 50  0001 C CNN
+	1    5300 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D11
+U 1 1 601BB3C0
+P 5100 2200
+F 0 "D11" V 5000 2250 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 5100 2326 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5000 2100 50  0001 C CNN
+F 3 "~" H 5000 2100 50  0001 C CNN
+F 4 "BAS70-06" H 5100 2200 50  0001 C CNN "Part"
+	1    5100 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push S22
+U 1 1 601BB3CC
+P 5800 2350
+F 0 "S22" H 5800 2300 50  0000 C CNN
+F 1 "SW_Push" V 5755 2302 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 5800 2550 50  0001 C CNN
+F 3 "~" H 5800 2550 50  0001 C CNN
+	1    5800 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push S23
+U 1 1 601BB3D2
+P 6300 2350
+F 0 "S23" H 6300 2300 50  0000 C CNN
+F 1 "SW_Push" V 6255 2302 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6300 2550 50  0001 C CNN
+F 3 "~" H 6300 2550 50  0001 C CNN
+	1    6300 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D12
+U 1 1 601BB3D8
+P 6100 2200
+F 0 "D12" V 6000 2250 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 6100 2326 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6000 2100 50  0001 C CNN
+F 3 "~" H 6000 2100 50  0001 C CNN
+F 4 "BAS70-06" H 6100 2200 50  0001 C CNN "Part"
+	1    6100 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push S24
+U 1 1 601BB3E4
+P 6800 2350
+F 0 "S24" H 6800 2300 50  0000 C CNN
+F 1 "SW_Push" V 6755 2302 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6800 2550 50  0001 C CNN
+F 3 "~" H 6800 2550 50  0001 C CNN
+	1    6800 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push S25
+U 1 1 601BB3EA
+P 7300 2350
+F 0 "S25" H 7300 2300 50  0000 C CNN
+F 1 "SW_Push" V 7255 2302 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7300 2550 50  0001 C CNN
+F 3 "~" H 7300 2550 50  0001 C CNN
+	1    7300 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D13
+U 1 1 601BB3F0
+P 7100 2200
+F 0 "D13" V 7000 2250 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 7100 2326 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7000 2100 50  0001 C CNN
+F 3 "~" H 7000 2100 50  0001 C CNN
+F 4 "BAS70-06" H 7100 2200 50  0001 C CNN "Part"
+	1    7100 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push S26
+U 1 1 601BB3FC
+P 7800 2350
+F 0 "S26" H 7800 2300 50  0000 C CNN
+F 1 "SW_Push" V 7755 2302 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7800 2550 50  0001 C CNN
+F 3 "~" H 7800 2550 50  0001 C CNN
+	1    7800 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push S27
+U 1 1 601BB402
+P 8300 2350
+F 0 "S27" H 8300 2300 50  0000 C CNN
+F 1 "SW_Push" V 8255 2302 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 8300 2550 50  0001 C CNN
+F 3 "~" H 8300 2550 50  0001 C CNN
+	1    8300 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D14
+U 1 1 601BB408
+P 8100 2200
+F 0 "D14" V 8000 2250 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 8100 2326 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8000 2100 50  0001 C CNN
+F 3 "~" H 8000 2100 50  0001 C CNN
+F 4 "BAS70-06" H 8100 2200 50  0001 C CNN "Part"
+	1    8100 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push S28
+U 1 1 601BB414
+P 8800 2350
+F 0 "S28" H 8800 2300 50  0000 C CNN
+F 1 "SW_Push" V 8755 2302 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.50u_PCB" H 8800 2550 50  0001 C CNN
+F 3 "~" H 8800 2550 50  0001 C CNN
+	1    8800 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push S29
+U 1 1 601C1E20
+P 2300 2850
+F 0 "S29" H 2300 2800 50  0000 C CNN
+F 1 "SW_Push" V 2255 2802 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.75u_PCB" H 2300 3050 50  0001 C CNN
+F 3 "~" H 2300 3050 50  0001 C CNN
+	1    2300 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D15
+U 1 1 601C1E26
+P 2100 2700
+F 0 "D15" V 2000 2750 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 2100 2826 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2000 2600 50  0001 C CNN
+F 3 "~" H 2000 2600 50  0001 C CNN
+F 4 "BAS70-06" H 2100 2700 50  0001 C CNN "Part"
+	1    2100 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push S30
+U 1 1 601C1E32
+P 2800 2850
+F 0 "S30" H 2800 2800 50  0000 C CNN
+F 1 "SW_Push" V 2755 2802 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2800 3050 50  0001 C CNN
+F 3 "~" H 2800 3050 50  0001 C CNN
+	1    2800 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push S31
+U 1 1 601C1E38
+P 3300 2850
+F 0 "S31" H 3300 2800 50  0000 C CNN
+F 1 "SW_Push" V 3255 2802 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 3300 3050 50  0001 C CNN
+F 3 "~" H 3300 3050 50  0001 C CNN
+	1    3300 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D16
+U 1 1 601C1E3E
+P 3100 2700
+F 0 "D16" V 3000 2750 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 3100 2826 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3000 2600 50  0001 C CNN
+F 3 "~" H 3000 2600 50  0001 C CNN
+F 4 "BAS70-06" H 3100 2700 50  0001 C CNN "Part"
+	1    3100 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push S32
+U 1 1 601C1E4A
+P 3800 2850
+F 0 "S32" H 3800 2800 50  0000 C CNN
+F 1 "SW_Push" V 3755 2802 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 3800 3050 50  0001 C CNN
+F 3 "~" H 3800 3050 50  0001 C CNN
+	1    3800 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push S33
+U 1 1 601C1E50
+P 4300 2850
+F 0 "S33" H 4300 2800 50  0000 C CNN
+F 1 "SW_Push" V 4255 2802 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 4300 3050 50  0001 C CNN
+F 3 "~" H 4300 3050 50  0001 C CNN
+	1    4300 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D17
+U 1 1 601C1E56
+P 4100 2700
+F 0 "D17" V 4000 2750 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 4100 2826 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4000 2600 50  0001 C CNN
+F 3 "~" H 4000 2600 50  0001 C CNN
+F 4 "BAS70-06" H 4100 2700 50  0001 C CNN "Part"
+	1    4100 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push S34
+U 1 1 601C1E62
+P 4800 2850
+F 0 "S34" H 4800 2800 50  0000 C CNN
+F 1 "SW_Push" V 4755 2802 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 4800 3050 50  0001 C CNN
+F 3 "~" H 4800 3050 50  0001 C CNN
+	1    4800 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push S35
+U 1 1 601C1E68
+P 5300 2850
+F 0 "S35" H 5300 2800 50  0000 C CNN
+F 1 "SW_Push" V 5255 2802 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 5300 3050 50  0001 C CNN
+F 3 "~" H 5300 3050 50  0001 C CNN
+	1    5300 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D18
+U 1 1 601C1E6E
+P 5100 2700
+F 0 "D18" V 5000 2750 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 5100 2826 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5000 2600 50  0001 C CNN
+F 3 "~" H 5000 2600 50  0001 C CNN
+F 4 "BAS70-06" H 5100 2700 50  0001 C CNN "Part"
+	1    5100 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push S36
+U 1 1 601C1E7A
+P 5800 2850
+F 0 "S36" H 5800 2800 50  0000 C CNN
+F 1 "SW_Push" V 5755 2802 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 5800 3050 50  0001 C CNN
+F 3 "~" H 5800 3050 50  0001 C CNN
+	1    5800 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push S37
+U 1 1 601C1E80
+P 6300 2850
+F 0 "S37" H 6300 2800 50  0000 C CNN
+F 1 "SW_Push" V 6255 2802 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6300 3050 50  0001 C CNN
+F 3 "~" H 6300 3050 50  0001 C CNN
+	1    6300 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D19
+U 1 1 601C1E86
+P 6100 2700
+F 0 "D19" V 6000 2750 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 6100 2826 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6000 2600 50  0001 C CNN
+F 3 "~" H 6000 2600 50  0001 C CNN
+F 4 "BAS70-06" H 6100 2700 50  0001 C CNN "Part"
+	1    6100 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push S38
+U 1 1 601C1E92
+P 6800 2850
+F 0 "S38" H 6800 2800 50  0000 C CNN
+F 1 "SW_Push" V 6755 2802 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6800 3050 50  0001 C CNN
+F 3 "~" H 6800 3050 50  0001 C CNN
+	1    6800 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push S39
+U 1 1 601C1E98
+P 7300 2850
+F 0 "S39" H 7300 2800 50  0000 C CNN
+F 1 "SW_Push" V 7255 2802 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7300 3050 50  0001 C CNN
+F 3 "~" H 7300 3050 50  0001 C CNN
+	1    7300 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D20
+U 1 1 601C1E9E
+P 7100 2700
+F 0 "D20" V 7000 2750 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 7100 2826 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7000 2600 50  0001 C CNN
+F 3 "~" H 7000 2600 50  0001 C CNN
+F 4 "BAS70-06" H 7100 2700 50  0001 C CNN "Part"
+	1    7100 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push S40
+U 1 1 601C1EAA
+P 7800 2850
+F 0 "S40" H 7800 2800 50  0000 C CNN
+F 1 "SW_Push" V 7755 2802 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7800 3050 50  0001 C CNN
+F 3 "~" H 7800 3050 50  0001 C CNN
+	1    7800 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push S41
+U 1 1 601C1EC2
+P 8800 2850
+F 0 "S41" H 8800 2800 50  0000 C CNN
+F 1 "SW_Push" V 8755 2802 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_2.25u_PCB" H 8800 3050 50  0001 C CNN
+F 3 "~" H 8800 3050 50  0001 C CNN
+	1    8800 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push S42
+U 1 1 601C6D9E
+P 2300 3350
+F 0 "S42" H 2300 3300 50  0000 C CNN
+F 1 "SW_Push" V 2255 3302 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_2.00u_PCB" H 2300 3550 50  0001 C CNN
+F 3 "~" H 2300 3550 50  0001 C CNN
+	1    2300 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D22
+U 1 1 601C6DA4
+P 2100 3200
+F 0 "D22" V 2000 3250 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 2100 3326 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2000 3100 50  0001 C CNN
+F 3 "~" H 2000 3100 50  0001 C CNN
+F 4 "BAS70-06" H 2100 3200 50  0001 C CNN "Part"
+	1    2100 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push S43
+U 1 1 601C6DB0
+P 2800 3350
+F 0 "S43" H 2800 3300 50  0000 C CNN
+F 1 "SW_Push" V 2755 3302 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2800 3550 50  0001 C CNN
+F 3 "~" H 2800 3550 50  0001 C CNN
+	1    2800 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push S44
+U 1 1 601C6DB6
+P 3300 3350
+F 0 "S44" H 3300 3300 50  0000 C CNN
+F 1 "SW_Push" V 3255 3302 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 3300 3550 50  0001 C CNN
+F 3 "~" H 3300 3550 50  0001 C CNN
+	1    3300 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D23
+U 1 1 601C6DBC
+P 3100 3200
+F 0 "D23" V 3000 3250 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 3100 3326 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3000 3100 50  0001 C CNN
+F 3 "~" H 3000 3100 50  0001 C CNN
+F 4 "BAS70-06" H 3100 3200 50  0001 C CNN "Part"
+	1    3100 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push S45
+U 1 1 601C6DC8
+P 3800 3350
+F 0 "S45" H 3800 3300 50  0000 C CNN
+F 1 "SW_Push" V 3755 3302 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 3800 3550 50  0001 C CNN
+F 3 "~" H 3800 3550 50  0001 C CNN
+	1    3800 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push S46
+U 1 1 601C6DCE
+P 4300 3350
+F 0 "S46" H 4300 3300 50  0000 C CNN
+F 1 "SW_Push" V 4255 3302 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 4300 3550 50  0001 C CNN
+F 3 "~" H 4300 3550 50  0001 C CNN
+	1    4300 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D24
+U 1 1 601C6DD4
+P 4100 3200
+F 0 "D24" V 4000 3250 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 4100 3326 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4000 3100 50  0001 C CNN
+F 3 "~" H 4000 3100 50  0001 C CNN
+F 4 "BAS70-06" H 4100 3200 50  0001 C CNN "Part"
+	1    4100 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push S47
+U 1 1 601C6DE0
+P 4800 3350
+F 0 "S47" H 4800 3300 50  0000 C CNN
+F 1 "SW_Push" V 4755 3302 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 4800 3550 50  0001 C CNN
+F 3 "~" H 4800 3550 50  0001 C CNN
+	1    4800 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push S48
+U 1 1 601C6DE6
+P 5300 3350
+F 0 "S48" H 5300 3300 50  0000 C CNN
+F 1 "SW_Push" V 5255 3302 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 5300 3550 50  0001 C CNN
+F 3 "~" H 5300 3550 50  0001 C CNN
+	1    5300 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D25
+U 1 1 601C6DEC
+P 5100 3200
+F 0 "D25" V 5000 3250 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 5100 3326 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5000 3100 50  0001 C CNN
+F 3 "~" H 5000 3100 50  0001 C CNN
+F 4 "BAS70-06" H 5100 3200 50  0001 C CNN "Part"
+	1    5100 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push S49
+U 1 1 601C6DF8
+P 5800 3350
+F 0 "S49" H 5800 3300 50  0000 C CNN
+F 1 "SW_Push" V 5755 3302 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 5800 3550 50  0001 C CNN
+F 3 "~" H 5800 3550 50  0001 C CNN
+	1    5800 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push S50
+U 1 1 601C6DFE
+P 6300 3350
+F 0 "S50" H 6300 3300 50  0000 C CNN
+F 1 "SW_Push" V 6255 3302 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6300 3550 50  0001 C CNN
+F 3 "~" H 6300 3550 50  0001 C CNN
+	1    6300 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D26
+U 1 1 601C6E04
+P 6100 3200
+F 0 "D26" V 6000 3250 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 6100 3326 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6000 3100 50  0001 C CNN
+F 3 "~" H 6000 3100 50  0001 C CNN
+F 4 "BAS70-06" H 6100 3200 50  0001 C CNN "Part"
+	1    6100 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push S51
+U 1 1 601C6E10
+P 6800 3350
+F 0 "S51" H 6800 3300 50  0000 C CNN
+F 1 "SW_Push" V 6755 3302 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6800 3550 50  0001 C CNN
+F 3 "~" H 6800 3550 50  0001 C CNN
+	1    6800 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push S52
+U 1 1 601C6E16
+P 7300 3350
+F 0 "S52" H 7300 3300 50  0000 C CNN
+F 1 "SW_Push" V 7255 3302 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7300 3550 50  0001 C CNN
+F 3 "~" H 7300 3550 50  0001 C CNN
+	1    7300 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D27
+U 1 1 601C6E1C
+P 7100 3200
+F 0 "D27" V 7000 3250 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 7100 3326 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7000 3100 50  0001 C CNN
+F 3 "~" H 7000 3100 50  0001 C CNN
+F 4 "BAS70-06" H 7100 3200 50  0001 C CNN "Part"
+	1    7100 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push S53
+U 1 1 601C6E28
+P 7800 3350
+F 0 "S53" H 7800 3300 50  0000 C CNN
+F 1 "SW_Push" V 7755 3302 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7800 3550 50  0001 C CNN
+F 3 "~" H 7800 3550 50  0001 C CNN
+	1    7800 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push S54
+U 1 1 601C6E2E
+P 8300 3350
+F 0 "S54" H 8300 3300 50  0000 C CNN
+F 1 "SW_Push" V 8255 3302 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 8300 3550 50  0001 C CNN
+F 3 "~" H 8300 3550 50  0001 C CNN
+	1    8300 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D28
+U 1 1 601C6E34
+P 8100 3200
+F 0 "D28" V 8000 3250 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 8100 3326 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8000 3100 50  0001 C CNN
+F 3 "~" H 8000 3100 50  0001 C CNN
+F 4 "BAS70-06" H 8100 3200 50  0001 C CNN "Part"
+	1    8100 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push S55
+U 1 1 601C6E40
+P 8800 3350
+F 0 "S55" H 8800 3300 50  0000 C CNN
+F 1 "SW_Push" V 8755 3302 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 8800 3550 50  0001 C CNN
+F 3 "~" H 8800 3550 50  0001 C CNN
+	1    8800 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push S56
+U 1 1 601CC2B2
+P 2300 3850
+F 0 "S56" H 2300 3800 50  0000 C CNN
+F 1 "SW_Push" V 2255 3802 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB" H 2300 4050 50  0001 C CNN
+F 3 "~" H 2300 4050 50  0001 C CNN
+	1    2300 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D29
+U 1 1 601CC2B8
+P 2100 3700
+F 0 "D29" V 2000 3750 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 2100 3826 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2000 3600 50  0001 C CNN
+F 3 "~" H 2000 3600 50  0001 C CNN
+F 4 "BAS70-06" H 2100 3700 50  0001 C CNN "Part"
+	1    2100 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push S57
+U 1 1 601CC2C4
+P 2800 3850
+F 0 "S57" H 2800 3800 50  0000 C CNN
+F 1 "SW_Push" V 2755 3802 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB" H 2800 4050 50  0001 C CNN
+F 3 "~" H 2800 4050 50  0001 C CNN
+	1    2800 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push S58
+U 1 1 601CC2CA
+P 3300 3850
+F 0 "S58" H 3300 3800 50  0000 C CNN
+F 1 "SW_Push" V 3255 3802 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB" H 3300 4050 50  0001 C CNN
+F 3 "~" H 3300 4050 50  0001 C CNN
+	1    3300 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D30
+U 1 1 601CC2D0
+P 3100 3700
+F 0 "D30" V 3000 3750 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 3100 3826 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3000 3600 50  0001 C CNN
+F 3 "~" H 3000 3600 50  0001 C CNN
+F 4 "BAS70-06" H 3100 3700 50  0001 C CNN "Part"
+	1    3100 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push S59
+U 1 1 601CC2F4
+P 4800 3850
+F 0 "S59" H 4800 3800 50  0000 C CNN
+F 1 "SW_Push" V 4755 3802 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_6.25u_PCB" H 4800 4050 50  0001 C CNN
+F 3 "~" H 4800 4050 50  0001 C CNN
+	1    4800 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push S61
+U 1 1 601CC32A
+P 7300 3850
+F 0 "S61" H 7300 3800 50  0000 C CNN
+F 1 "SW_Push" V 7255 3802 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7300 4050 50  0001 C CNN
+F 3 "~" H 7300 4050 50  0001 C CNN
+	1    7300 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D32
+U 1 1 601CC330
+P 7100 3700
+F 0 "D32" V 7000 3750 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 7100 3826 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7000 3600 50  0001 C CNN
+F 3 "~" H 7000 3600 50  0001 C CNN
+F 4 "BAS70-06" H 7100 3700 50  0001 C CNN "Part"
+	1    7100 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push S62
+U 1 1 601CC33C
+P 7800 3850
+F 0 "S62" H 7800 3800 50  0000 C CNN
+F 1 "SW_Push" V 7755 3802 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7800 4050 50  0001 C CNN
+F 3 "~" H 7800 4050 50  0001 C CNN
+	1    7800 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push S63
+U 1 1 601CC342
+P 8300 3850
+F 0 "S63" H 8300 3800 50  0000 C CNN
+F 1 "SW_Push" V 8255 3802 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 8300 4050 50  0001 C CNN
+F 3 "~" H 8300 4050 50  0001 C CNN
+	1    8300 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D33
+U 1 1 601CC348
+P 8100 3700
+F 0 "D33" V 8000 3750 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 8100 3826 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8000 3600 50  0001 C CNN
+F 3 "~" H 8000 3600 50  0001 C CNN
+F 4 "BAS70-06" H 8100 3700 50  0001 C CNN "Part"
+	1    8100 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push S64
+U 1 1 601CC354
+P 8800 3850
+F 0 "S64" H 8800 3800 50  0000 C CNN
+F 1 "SW_Push" V 8755 3802 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 8800 4050 50  0001 C CNN
+F 3 "~" H 8800 4050 50  0001 C CNN
+	1    8800 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 1550 3100 1550
+Connection ~ 3100 1550
+Wire Wire Line
+	3100 1550 4100 1550
+Connection ~ 4100 1550
+Wire Wire Line
+	4100 1550 5100 1550
+Connection ~ 5100 1550
+Wire Wire Line
+	5100 1550 6100 1550
+Connection ~ 6100 1550
+Wire Wire Line
+	6100 1550 7100 1550
+Connection ~ 7100 1550
+Wire Wire Line
+	7100 1550 8100 1550
+Wire Wire Line
+	2100 2050 3100 2050
+Connection ~ 3100 2050
+Wire Wire Line
+	3100 2050 4100 2050
+Connection ~ 4100 2050
+Wire Wire Line
+	4100 2050 5100 2050
+Connection ~ 5100 2050
+Wire Wire Line
+	5100 2050 6100 2050
+Connection ~ 6100 2050
+Wire Wire Line
+	6100 2050 7100 2050
+Connection ~ 7100 2050
+Wire Wire Line
+	7100 2050 8100 2050
+Wire Wire Line
+	2100 2550 3100 2550
+Connection ~ 3100 2550
+Wire Wire Line
+	3100 2550 4100 2550
+Connection ~ 4100 2550
+Wire Wire Line
+	4100 2550 5100 2550
+Connection ~ 5100 2550
+Wire Wire Line
+	5100 2550 6100 2550
+Connection ~ 6100 2550
+Wire Wire Line
+	6100 2550 7100 2550
+Connection ~ 7100 2550
+Wire Wire Line
+	2100 3050 3100 3050
+Connection ~ 3100 3050
+Wire Wire Line
+	3100 3050 4100 3050
+Connection ~ 4100 3050
+Wire Wire Line
+	4100 3050 5100 3050
+Connection ~ 5100 3050
+Wire Wire Line
+	5100 3050 6100 3050
+Connection ~ 6100 3050
+Wire Wire Line
+	6100 3050 7100 3050
+Connection ~ 7100 3050
+Wire Wire Line
+	7100 3050 8100 3050
+Wire Wire Line
+	2100 3550 3100 3550
+Connection ~ 3100 3550
+Connection ~ 7100 3550
+Wire Wire Line
+	7100 3550 8100 3550
+Wire Wire Line
+	2500 1850 2500 2350
+Connection ~ 2500 2350
+Wire Wire Line
+	2500 2350 2500 2850
+Connection ~ 2500 2850
+Wire Wire Line
+	2500 2850 2500 3350
+Connection ~ 2500 3350
+Wire Wire Line
+	2500 3350 2500 3850
+Wire Wire Line
+	3000 1850 3000 2350
+Connection ~ 3000 2350
+Wire Wire Line
+	3000 2350 3000 2850
+Connection ~ 3000 2850
+Wire Wire Line
+	3000 2850 3000 3350
+Connection ~ 3000 3350
+Wire Wire Line
+	3000 3350 3000 3850
+Wire Wire Line
+	7500 3850 7500 3350
+Wire Wire Line
+	8000 3850 8000 3350
+Wire Wire Line
+	8500 3850 8500 3350
+Wire Wire Line
+	9000 3850 9000 3350
+Wire Wire Line
+	3500 3850 3500 3350
+Wire Wire Line
+	5000 3850 5000 3350
+Connection ~ 2100 3550
+Wire Wire Line
+	1500 3550 2100 3550
+Connection ~ 2100 3050
+Wire Wire Line
+	1500 3050 2100 3050
+Connection ~ 2100 2550
+Wire Wire Line
+	1500 2550 2100 2550
+Connection ~ 2100 2050
+Wire Wire Line
+	1500 2050 2100 2050
+Connection ~ 2100 1550
+Wire Wire Line
+	1500 1550 2100 1550
+Wire Wire Line
+	8600 3550 8100 3550
+Connection ~ 8100 3550
+Wire Wire Line
+	8100 3050 8600 3050
+Connection ~ 8100 3050
+Wire Wire Line
+	8100 2050 8600 2050
+Connection ~ 8100 2050
+Wire Wire Line
+	8100 1550 8600 1550
+Connection ~ 8100 1550
+Wire Wire Line
+	4000 1850 4000 2350
+Connection ~ 4000 2350
+Wire Wire Line
+	4000 2350 4000 2850
+Connection ~ 4000 2850
+Wire Wire Line
+	4000 2850 4000 3350
+Connection ~ 4000 3350
+Wire Wire Line
+	3100 3550 6100 3550
+Wire Wire Line
+	5500 1850 5500 2350
+Connection ~ 5500 2350
+Wire Wire Line
+	5500 2350 5500 2850
+Connection ~ 5500 2850
+Wire Wire Line
+	5500 2850 5500 3350
+Connection ~ 5500 3350
+Connection ~ 6000 2350
+Wire Wire Line
+	6000 2350 6000 1850
+Connection ~ 6000 2850
+Wire Wire Line
+	6000 2850 6000 2350
+Connection ~ 6000 3350
+Wire Wire Line
+	6000 3350 6000 2850
+Wire Wire Line
+	6500 1850 6500 2350
+Connection ~ 6500 2350
+Wire Wire Line
+	6500 2350 6500 2850
+Connection ~ 6500 2850
+Wire Wire Line
+	6500 2850 6500 3350
+Connection ~ 6500 3350
+Connection ~ 7000 2350
+Wire Wire Line
+	7000 2350 7000 1850
+Connection ~ 7000 2850
+Wire Wire Line
+	7000 2850 7000 2350
+Connection ~ 7000 3350
+Wire Wire Line
+	7000 3350 7000 2850
+Connection ~ 7500 2350
+Wire Wire Line
+	7500 2350 7500 1850
+Connection ~ 7500 2850
+Wire Wire Line
+	7500 2850 7500 2350
+Connection ~ 7500 3350
+Wire Wire Line
+	7500 3350 7500 2850
+Connection ~ 8000 2350
+Wire Wire Line
+	8000 2350 8000 1850
+Connection ~ 8000 2850
+Wire Wire Line
+	8000 2850 8000 2350
+Connection ~ 8000 3350
+Wire Wire Line
+	8000 3350 8000 2850
+Connection ~ 8500 2350
+Wire Wire Line
+	8500 2350 8500 1850
+Connection ~ 8500 3350
+Connection ~ 9000 2350
+Wire Wire Line
+	9000 2350 9000 1850
+Connection ~ 9000 2850
+Wire Wire Line
+	9000 2850 9000 2350
+Connection ~ 9000 3350
+Wire Wire Line
+	9000 3350 9000 2850
+Connection ~ 4500 2350
+Wire Wire Line
+	4500 2350 4500 1850
+Connection ~ 4500 2850
+Wire Wire Line
+	4500 2850 4500 2350
+Connection ~ 4500 3350
+Wire Wire Line
+	4500 3350 4500 2850
+Connection ~ 5000 2350
+Wire Wire Line
+	5000 2350 5000 1850
+Connection ~ 5000 2850
+Wire Wire Line
+	5000 2850 5000 2350
+Connection ~ 5000 3350
+Wire Wire Line
+	5000 3350 5000 2850
+Connection ~ 3500 2350
+Wire Wire Line
+	3500 2350 3500 1850
+Connection ~ 3500 2850
+Wire Wire Line
+	3500 2850 3500 2350
+Connection ~ 3500 3350
+Wire Wire Line
+	3500 3350 3500 2850
+Text HLabel 1500 1550 0    50   Input ~ 0
+row1
+Text HLabel 1500 2050 0    50   Input ~ 0
+row2
+Text HLabel 1500 2550 0    50   Input ~ 0
+row3
+Text HLabel 1500 3050 0    50   Input ~ 0
+row4
+Text HLabel 1500 3550 0    50   Input ~ 0
+row5
+Text HLabel 2600 4200 2    50   Output ~ 0
+col1
+Connection ~ 2500 3850
+$Comp
+L Switch:SW_Push S1
+U 1 1 600C2BCA
+P 2300 1850
+F 0 "S1" H 2300 1800 50  0000 C CNN
+F 1 "SW_Push" V 2255 1802 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 2300 2050 50  0001 C CNN
+F 3 "~" H 2300 2050 50  0001 C CNN
+	1    2300 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 4200 2500 4200
+Wire Wire Line
+	2500 3850 2500 4200
+Text HLabel 3100 4200 2    50   Output ~ 0
+col2
+Wire Wire Line
+	3100 4200 3000 4200
+Wire Wire Line
+	3000 3850 3000 4200
+Text HLabel 3600 4200 2    50   Output ~ 0
+col3
+Wire Wire Line
+	3600 4200 3500 4200
+Wire Wire Line
+	3500 3850 3500 4200
+Text HLabel 4100 4200 2    50   Output ~ 0
+col4
+Wire Wire Line
+	4100 4200 4000 4200
+Wire Wire Line
+	4000 3350 4000 4200
+Text HLabel 4600 4200 2    50   Output ~ 0
+col5
+Wire Wire Line
+	4600 4200 4500 4200
+Wire Wire Line
+	4500 3350 4500 4200
+Text HLabel 5100 4200 2    50   Output ~ 0
+col6
+Wire Wire Line
+	5100 4200 5000 4200
+Wire Wire Line
+	5000 3850 5000 4200
+Text HLabel 5600 4200 2    50   Output ~ 0
+col7
+Wire Wire Line
+	5600 4200 5500 4200
+Wire Wire Line
+	5500 3350 5500 4200
+Text HLabel 6100 4200 2    50   Output ~ 0
+col8
+Wire Wire Line
+	6100 4200 6000 4200
+Wire Wire Line
+	6000 3350 6000 4200
+Text HLabel 6600 4200 2    50   Output ~ 0
+col9
+Wire Wire Line
+	6600 4200 6500 4200
+Text HLabel 7100 4200 2    50   Output ~ 0
+col10
+Wire Wire Line
+	7100 4200 7000 4200
+Wire Wire Line
+	7000 3350 7000 3850
+Wire Wire Line
+	7600 4200 7500 4200
+Wire Wire Line
+	7500 3850 7500 4200
+Wire Wire Line
+	8100 4200 8000 4200
+Wire Wire Line
+	8000 3850 8000 4200
+Wire Wire Line
+	8600 4200 8500 4200
+Wire Wire Line
+	8500 3850 8500 4200
+Wire Wire Line
+	9100 4200 9000 4200
+Wire Wire Line
+	9000 3850 9000 4200
+Connection ~ 9000 3850
+Connection ~ 8500 3850
+Connection ~ 8000 3850
+Connection ~ 7500 3850
+Connection ~ 5000 3850
+Connection ~ 3500 3850
+Connection ~ 3000 3850
+Text HLabel 7600 4200 2    50   Output ~ 0
+col11
+Text HLabel 8100 4200 2    50   Output ~ 0
+col12
+Text HLabel 8600 4200 2    50   Output ~ 0
+col13
+Text HLabel 9100 4200 2    50   Output ~ 0
+col14
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D33
+U 2 1 601CC34E
+P 8600 3700
+F 0 "D33" V 8500 3800 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 8608 3857 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8500 3600 50  0001 C CNN
+F 3 "~" H 8500 3600 50  0001 C CNN
+F 4 "BAS70-06" H 8600 3700 50  0001 C CNN "Part"
+	2    8600 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D32
+U 2 1 601CC336
+P 7600 3700
+F 0 "D32" V 7500 3800 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 7608 3857 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7500 3600 50  0001 C CNN
+F 3 "~" H 7500 3600 50  0001 C CNN
+F 4 "BAS70-06" H 7600 3700 50  0001 C CNN "Part"
+	2    7600 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D30
+U 2 1 601CC2EE
+P 4600 3700
+F 0 "D30" V 4500 3800 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 4608 3857 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4500 3600 50  0001 C CNN
+F 3 "~" H 4500 3600 50  0001 C CNN
+F 4 "BAS70-06" H 4600 3700 50  0001 C CNN "Part"
+	2    4600 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D29
+U 2 1 601CC2BE
+P 2600 3700
+F 0 "D29" V 2500 3800 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 2608 3857 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2500 3600 50  0001 C CNN
+F 3 "~" H 2500 3600 50  0001 C CNN
+F 4 "BAS70-06" H 2600 3700 50  0001 C CNN "Part"
+	2    2600 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D28
+U 2 1 601C6E3A
+P 8600 3200
+F 0 "D28" V 8500 3300 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 8608 3357 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8500 3100 50  0001 C CNN
+F 3 "~" H 8500 3100 50  0001 C CNN
+F 4 "BAS70-06" H 8600 3200 50  0001 C CNN "Part"
+	2    8600 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D27
+U 2 1 601C6E22
+P 7600 3200
+F 0 "D27" V 7500 3300 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 7608 3357 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7500 3100 50  0001 C CNN
+F 3 "~" H 7500 3100 50  0001 C CNN
+F 4 "BAS70-06" H 7600 3200 50  0001 C CNN "Part"
+	2    7600 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D26
+U 2 1 601C6E0A
+P 6600 3200
+F 0 "D26" V 6500 3300 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 6608 3357 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6500 3100 50  0001 C CNN
+F 3 "~" H 6500 3100 50  0001 C CNN
+F 4 "BAS70-06" H 6600 3200 50  0001 C CNN "Part"
+	2    6600 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D25
+U 2 1 601C6DF2
+P 5600 3200
+F 0 "D25" V 5500 3300 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 5608 3357 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5500 3100 50  0001 C CNN
+F 3 "~" H 5500 3100 50  0001 C CNN
+F 4 "BAS70-06" H 5600 3200 50  0001 C CNN "Part"
+	2    5600 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D24
+U 2 1 601C6DDA
+P 4600 3200
+F 0 "D24" V 4500 3300 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 4608 3357 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4500 3100 50  0001 C CNN
+F 3 "~" H 4500 3100 50  0001 C CNN
+F 4 "BAS70-06" H 4600 3200 50  0001 C CNN "Part"
+	2    4600 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D23
+U 2 1 601C6DC2
+P 3600 3200
+F 0 "D23" V 3500 3300 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 3608 3357 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3500 3100 50  0001 C CNN
+F 3 "~" H 3500 3100 50  0001 C CNN
+F 4 "BAS70-06" H 3600 3200 50  0001 C CNN "Part"
+	2    3600 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D22
+U 2 1 601C6DAA
+P 2600 3200
+F 0 "D22" V 2500 3300 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 2608 3357 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2500 3100 50  0001 C CNN
+F 3 "~" H 2500 3100 50  0001 C CNN
+F 4 "BAS70-06" H 2600 3200 50  0001 C CNN "Part"
+	2    2600 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D20
+U 2 1 601C1EA4
+P 7600 2700
+F 0 "D20" V 7500 2800 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 7608 2857 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7500 2600 50  0001 C CNN
+F 3 "~" H 7500 2600 50  0001 C CNN
+F 4 "BAS70-06" H 7600 2700 50  0001 C CNN "Part"
+	2    7600 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D19
+U 2 1 601C1E8C
+P 6600 2700
+F 0 "D19" V 6500 2800 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 6608 2857 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6500 2600 50  0001 C CNN
+F 3 "~" H 6500 2600 50  0001 C CNN
+F 4 "BAS70-06" H 6600 2700 50  0001 C CNN "Part"
+	2    6600 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D18
+U 2 1 601C1E74
+P 5600 2700
+F 0 "D18" V 5500 2800 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 5608 2857 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5500 2600 50  0001 C CNN
+F 3 "~" H 5500 2600 50  0001 C CNN
+F 4 "BAS70-06" H 5600 2700 50  0001 C CNN "Part"
+	2    5600 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D17
+U 2 1 601C1E5C
+P 4600 2700
+F 0 "D17" V 4500 2800 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 4608 2857 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4500 2600 50  0001 C CNN
+F 3 "~" H 4500 2600 50  0001 C CNN
+F 4 "BAS70-06" H 4600 2700 50  0001 C CNN "Part"
+	2    4600 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D16
+U 2 1 601C1E44
+P 3600 2700
+F 0 "D16" V 3500 2800 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 3608 2857 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3500 2600 50  0001 C CNN
+F 3 "~" H 3500 2600 50  0001 C CNN
+F 4 "BAS70-06" H 3600 2700 50  0001 C CNN "Part"
+	2    3600 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D15
+U 2 1 601C1E2C
+P 2600 2700
+F 0 "D15" V 2500 2800 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 2608 2857 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2500 2600 50  0001 C CNN
+F 3 "~" H 2500 2600 50  0001 C CNN
+F 4 "BAS70-06" H 2600 2700 50  0001 C CNN "Part"
+	2    2600 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D14
+U 2 1 601BB40E
+P 8600 2200
+F 0 "D14" V 8500 2300 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 8608 2357 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8500 2100 50  0001 C CNN
+F 3 "~" H 8500 2100 50  0001 C CNN
+F 4 "BAS70-06" H 8600 2200 50  0001 C CNN "Part"
+	2    8600 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D13
+U 2 1 601BB3F6
+P 7600 2200
+F 0 "D13" V 7500 2300 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 7608 2357 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7500 2100 50  0001 C CNN
+F 3 "~" H 7500 2100 50  0001 C CNN
+F 4 "BAS70-06" H 7600 2200 50  0001 C CNN "Part"
+	2    7600 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D12
+U 2 1 601BB3DE
+P 6600 2200
+F 0 "D12" V 6500 2300 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 6608 2357 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6500 2100 50  0001 C CNN
+F 3 "~" H 6500 2100 50  0001 C CNN
+F 4 "BAS70-06" H 6600 2200 50  0001 C CNN "Part"
+	2    6600 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D11
+U 2 1 601BB3C6
+P 5600 2200
+F 0 "D11" V 5500 2300 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 5608 2357 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5500 2100 50  0001 C CNN
+F 3 "~" H 5500 2100 50  0001 C CNN
+F 4 "BAS70-06" H 5600 2200 50  0001 C CNN "Part"
+	2    5600 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D10
+U 2 1 601BB3AE
+P 4600 2200
+F 0 "D10" V 4500 2300 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 4608 2357 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4500 2100 50  0001 C CNN
+F 3 "~" H 4500 2100 50  0001 C CNN
+F 4 "BAS70-06" H 4600 2200 50  0001 C CNN "Part"
+	2    4600 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D9
+U 2 1 601BB396
+P 3600 2200
+F 0 "D9" V 3500 2300 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 3608 2357 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3500 2100 50  0001 C CNN
+F 3 "~" H 3500 2100 50  0001 C CNN
+F 4 "BAS70-06" H 3600 2200 50  0001 C CNN "Part"
+	2    3600 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D8
+U 2 1 601BB37E
+P 2600 2200
+F 0 "D8" V 2500 2300 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 2608 2357 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2500 2100 50  0001 C CNN
+F 3 "~" H 2500 2100 50  0001 C CNN
+F 4 "BAS70-06" H 2600 2200 50  0001 C CNN "Part"
+	2    2600 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D7
+U 2 1 601A14A0
+P 8600 1700
+F 0 "D7" V 8500 1800 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 8608 1857 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8500 1600 50  0001 C CNN
+F 3 "~" H 8500 1600 50  0001 C CNN
+F 4 "BAS70-06" H 8600 1700 50  0001 C CNN "Part"
+	2    8600 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D6
+U 2 1 601A1488
+P 7600 1700
+F 0 "D6" V 7500 1800 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 7608 1857 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7500 1600 50  0001 C CNN
+F 3 "~" H 7500 1600 50  0001 C CNN
+F 4 "BAS70-06" H 7600 1700 50  0001 C CNN "Part"
+	2    7600 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D5
+U 2 1 601A1470
+P 6600 1700
+F 0 "D5" V 6500 1800 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 6608 1857 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6500 1600 50  0001 C CNN
+F 3 "~" H 6500 1600 50  0001 C CNN
+F 4 "BAS70-06" H 6600 1700 50  0001 C CNN "Part"
+	2    6600 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D4
+U 2 1 60199BAE
+P 5600 1700
+F 0 "D4" V 5500 1800 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 5608 1857 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5500 1600 50  0001 C CNN
+F 3 "~" H 5500 1600 50  0001 C CNN
+F 4 "BAS70-06" H 5600 1700 50  0001 C CNN "Part"
+	2    5600 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D3
+U 2 1 60199B96
+P 4600 1700
+F 0 "D3" V 4500 1800 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 4608 1857 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4500 1600 50  0001 C CNN
+F 3 "~" H 4500 1600 50  0001 C CNN
+F 4 "BAS70-06" H 4600 1700 50  0001 C CNN "Part"
+	2    4600 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D2
+U 2 1 60195C34
+P 3600 1700
+F 0 "D2" V 3500 1800 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 3608 1857 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3500 1600 50  0001 C CNN
+F 3 "~" H 3500 1600 50  0001 C CNN
+F 4 "BAS70-06" H 3600 1700 50  0001 C CNN "Part"
+	2    3600 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D1
+U 2 1 60179667
+P 2600 1700
+F 0 "D1" V 2500 1800 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 2608 1857 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2500 1600 50  0001 C CNN
+F 3 "~" H 2500 1600 50  0001 C CNN
+F 4 "BAS70-06" H 2600 1700 50  0001 C CNN "Part"
+	2    2600 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D21
+U 2 1 601C1EBC
+P 8600 2700
+F 0 "D21" V 8500 2800 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 8608 2857 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8500 2600 50  0001 C CNN
+F 3 "~" H 8500 2600 50  0001 C CNN
+F 4 "BAS70-06" H 8600 2700 50  0001 C CNN "Part"
+	2    8600 2700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8100 2550 8600 2550
+Wire Wire Line
+	7100 2550 8100 2550
+Connection ~ 8100 2550
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D21
+U 1 1 601C1EB6
+P 8100 2700
+F 0 "D21" V 8000 2750 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 8100 2826 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8000 2600 50  0001 C CNN
+F 3 "~" H 8000 2600 50  0001 C CNN
+F 4 "BAS70-06" H 8100 2700 50  0001 C CNN "Part"
+	1    8100 2700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8500 2350 8500 3350
+NoConn ~ 8100 2850
+$Comp
+L Switch:SW_Push S60
+U 1 1 60313685
+P 6800 3850
+F 0 "S60" H 6800 3800 50  0000 C CNN
+F 1 "SW_Push" V 6755 3802 50  0001 R CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6800 4050 50  0001 C CNN
+F 3 "~" H 6800 4050 50  0001 C CNN
+	1    6800 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 3350 6500 4200
+Connection ~ 6100 3550
+Connection ~ 7000 3850
+Wire Wire Line
+	7000 3850 7000 4200
+NoConn ~ 6100 3850
+Wire Wire Line
+	6100 3550 7100 3550
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D31
+U 1 1 6031367F
+P 6100 3700
+F 0 "D31" V 6000 3750 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 6100 3826 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6000 3600 50  0001 C CNN
+F 3 "~" H 6000 3600 50  0001 C CNN
+F 4 "BAS70-06" H 6100 3700 50  0001 C CNN "Part"
+	1    6100 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Dual_CommonAnode_KKA_Split D31
+U 2 1 6031368F
+P 6600 3700
+F 0 "D31" V 6500 3800 50  0000 L CNN
+F 1 "D_Dual_CommonAnode_KKA_Split" H 6608 3857 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6500 3600 50  0001 C CNN
+F 3 "~" H 6500 3600 50  0001 C CNN
+F 4 "BAS70-06" H 6600 3700 50  0001 C CNN "Part"
+	2    6600 3700
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC
