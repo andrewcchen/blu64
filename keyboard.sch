@@ -1077,6 +1077,19 @@ F 6 "DNP" H 6200 7100 50  0001 C CNN "Variant"
 	1    6200 7100
 	1    0    0    -1  
 $EndComp
+NoConn ~ 4100 3000
+NoConn ~ 4100 2900
+NoConn ~ 4100 2800
+NoConn ~ 4100 2600
+NoConn ~ 4100 2400
+Wire Wire Line
+	4100 2400 3700 2400
+Wire Wire Line
+	4100 2800 3700 2800
+Wire Wire Line
+	4100 2600 3700 2600
+Wire Wire Line
+	4100 2900 3700 2900
 Wire Bus Line
 	1800 4300 1800 4800
 Wire Bus Line
