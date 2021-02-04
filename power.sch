@@ -13,20 +13,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 1550 3000 0    50   ~ 0
-D-
 Text Label 1550 3100 0    50   ~ 0
 CHGLED
-Wire Wire Line
-	1850 3100 1550 3100
-Wire Wire Line
-	1550 3300 1850 3300
-Wire Wire Line
-	1550 3200 1850 3200
-Wire Wire Line
-	1550 2900 1850 2900
-Wire Wire Line
-	1550 3000 1850 3000
 $Comp
 L power:GND #PWR?
 U 1 1 60761EBF
@@ -281,7 +269,7 @@ P 3200 3650
 AR Path="/60761F46" Ref="TH?"  Part="1" 
 AR Path="/60725D85/60761F46" Ref="TH1"  Part="1" 
 F 0 "TH1" H 3297 3741 50  0000 L CNN
-F 1 "10k" H 3297 3650 50  0000 L CNN
+F 1 "10k NTC" H 3297 3650 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 3200 3700 50  0001 C CNN
 F 3 "~" H 3200 3700 50  0001 C CNN
 F 4 "B=3435K" H 3297 3559 50  0000 L CNN "Comment"
@@ -319,8 +307,7 @@ F 2 "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal" H 3
 F 3 "~" H 3950 3500 50  0001 C CNN
 F 4 "NTC" H 4030 3355 50  0000 L CNN "Comment"
 F 5 "53261-0271" H 3950 3500 50  0001 C CNN "Part"
-F 6 "" H 3950 3500 50  0001 C CNN "PartAlt"
-F 7 "BQ24295" H 3950 3500 50  0001 C CNN "Variant"
+F 6 "BQ24295,DNP" H 3950 3500 50  0001 C CNN "Variant"
 	1    3950 3500
 	1    0    0    -1  
 $EndComp
@@ -331,7 +318,7 @@ P 3750 3600
 AR Path="/60761F5F" Ref="#PWR?"  Part="1" 
 AR Path="/60725D85/60761F5F" Ref="#PWR029"  Part="1" 
 F 0 "#PWR029" H 3750 3350 50  0001 C CNN
-F 1 "GND" V 3700 3500 50  0000 R CNN
+F 1 "GND" V 3800 3550 50  0000 L CNN
 F 2 "" H 3750 3600 50  0001 C CNN
 F 3 "" H 3750 3600 50  0001 C CNN
 	1    3750 3600
@@ -379,44 +366,12 @@ MCP73832 option\nLinear charger
 Connection ~ 6700 3500
 Wire Wire Line
 	6700 3800 6700 3500
-Wire Wire Line
-	6050 3800 5850 3800
-Connection ~ 6050 3800
 Connection ~ 5850 3800
 Wire Wire Line
 	5850 3800 5500 3800
 Wire Wire Line
 	6250 3800 6400 3800
-$Comp
-L power:GND #PWR?
-U 1 1 60761EA8
-P 6050 4000
-AR Path="/60761EA8" Ref="#PWR?"  Part="1" 
-AR Path="/60725D85/60761EA8" Ref="#PWR035"  Part="1" 
-F 0 "#PWR035" H 6050 3750 50  0001 C CNN
-F 1 "GND" H 6055 3827 50  0000 C CNN
-F 2 "" H 6050 4000 50  0001 C CNN
-F 3 "" H 6050 4000 50  0001 C CNN
-	1    6050 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 60761EA2
-P 6050 3900
-AR Path="/60761EA2" Ref="R?"  Part="1" 
-AR Path="/60725D85/60761EA2" Ref="R10"  Part="1" 
-F 0 "R10" H 6109 3946 50  0000 L CNN
-F 1 "10k" H 6109 3855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 6050 3900 50  0001 C CNN
-F 3 "~" H 6050 3900 50  0001 C CNN
-F 4 "MCP73832" H 6050 3900 50  0001 C CNN "Variant"
-	1    6050 3900
-	1    0    0    -1  
-$EndComp
 Connection ~ 6250 3800
-Wire Wire Line
-	6250 3800 6050 3800
 $Comp
 L Device:Q_Dual_PMOS_G1S2G2D2S1D1 Q?
 U 2 1 60761E99
@@ -467,10 +422,10 @@ P 6550 3800
 AR Path="/60761E83" Ref="D?"  Part="1" 
 AR Path="/60725D85/60761E83" Ref="D34"  Part="1" 
 F 0 "D34" H 6550 3675 50  0000 C CNN
-F 1 "~" H 6550 3926 50  0000 C CNN
+F 1 "1N4007" H 6550 3926 50  0001 C CNN
 F 2 "Diode_SMD:D_SOD-123" H 6550 3800 50  0001 C CNN
 F 3 "~" H 6550 3800 50  0001 C CNN
-F 4 "" H 6550 3800 50  0001 C CNN "Part"
+F 4 "SOD-123 1N4007" H 6550 3800 50  0001 C CNN "Part"
 F 5 "MCP73832" H 6550 3800 50  0001 C CNN "Variant"
 	1    6550 3800
 	-1   0    0    1   
@@ -627,193 +582,13 @@ F 3 "" H 6850 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 6850 2300
-Text Notes 8500 3400 0    100  ~ 20
-Power switch
-$Comp
-L Switch:SW_SPDT SW?
-U 1 1 60761E66
-P 9000 4000
-AR Path="/60761E66" Ref="SW?"  Part="1" 
-AR Path="/60725D85/60761E66" Ref="SW1"  Part="1" 
-F 0 "SW1" H 9000 4375 50  0000 C CNN
-F 1 "Slide Switch" H 9000 4284 50  0000 C CNN
-F 2 "project:SW_OS102011MS2QN1" H 9000 4000 50  0001 C CNN
-F 3 "https://www.ckswitches.com/media/1428/os.pdf" H 9000 4000 50  0001 C CNN
-F 4 "OS102011MS2QN1" H 9000 4193 50  0000 C CNN "Part"
-	1    9000 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 60761E36
-P 9300 4100
-AR Path="/60761E36" Ref="R?"  Part="1" 
-AR Path="/60725D85/60761E36" Ref="R11"  Part="1" 
-F 0 "R11" V 9404 4100 50  0000 C CNN
-F 1 "10k" V 9495 4100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 9300 4100 50  0001 C CNN
-F 3 "~" H 9300 4100 50  0001 C CNN
-	1    9300 4100
-	0    1    1    0   
-$EndComp
-$Comp
-L project:VSYS #PWR?
-U 1 1 60761E03
-P 9500 3900
-AR Path="/60761E03" Ref="#PWR?"  Part="1" 
-AR Path="/60725D85/60761E03" Ref="#PWR042"  Part="1" 
-F 0 "#PWR042" H 9500 3750 50  0001 C CNN
-F 1 "VSYS" H 9515 4073 50  0000 C CNN
-F 2 "" H 9500 3900 50  0001 C CNN
-F 3 "" H 9500 3900 50  0001 C CNN
-	1    9500 3900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9500 3900 9200 3900
-Wire Wire Line
-	9500 4100 9400 4100
-Wire Wire Line
-	8500 4000 8800 4000
-Text Label 8500 4000 0    50   ~ 0
-PWROFF
-$Comp
-L power:GND #PWR?
-U 1 1 60761DE9
-P 9500 4100
-AR Path="/60761DE9" Ref="#PWR?"  Part="1" 
-AR Path="/60725D85/60761DE9" Ref="#PWR043"  Part="1" 
-F 0 "#PWR043" H 9500 3850 50  0001 C CNN
-F 1 "GND" H 9505 3927 50  0000 C CNN
-F 2 "" H 9500 4100 50  0001 C CNN
-F 3 "" H 9500 4100 50  0001 C CNN
-	1    9500 4100
-	1    0    0    -1  
-$EndComp
-Text Notes 8500 1400 0    100  ~ 20
-3.3V regulator
-$Comp
-L project:MCP1811 U?
-U 1 1 60761E6D
-P 9300 2000
-AR Path="/60761E6D" Ref="U?"  Part="1" 
-AR Path="/60725D85/60761E6D" Ref="U4"  Part="1" 
-F 0 "U4" H 9300 2342 50  0000 C CNN
-F 1 "MCP1811AT-033/OT" H 9300 2251 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 9300 2200 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/MCP1811A-11B-12A-12B-Data-Sheet-20006088B.pdf" H 9300 2000 50  0001 C CNN
-F 4 "MCP1811AT-033/TT" H 9300 2000 50  0001 C CNN "Part"
-	1    9300 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 60761E42
-P 8500 2000
-AR Path="/60761E42" Ref="C?"  Part="1" 
-AR Path="/60725D85/60761E42" Ref="C12"  Part="1" 
-F 0 "C12" H 8409 2046 50  0000 R CNN
-F 1 "1uF" H 8409 1955 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 8500 2000 50  0001 C CNN
-F 3 "~" H 8500 2000 50  0001 C CNN
-	1    8500 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 60761E3C
-P 9800 2000
-AR Path="/60761E3C" Ref="C?"  Part="1" 
-AR Path="/60725D85/60761E3C" Ref="C13"  Part="1" 
-F 0 "C13" H 9892 2046 50  0000 L CNN
-F 1 "1uF" H 9892 1955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 9800 2000 50  0001 C CNN
-F 3 "~" H 9800 2000 50  0001 C CNN
-	1    9800 2000
-	1    0    0    -1  
-$EndComp
-Connection ~ 8500 1900
-$Comp
-L project:VSYS #PWR?
-U 1 1 60761E09
-P 8500 1900
-AR Path="/60761E09" Ref="#PWR?"  Part="1" 
-AR Path="/60725D85/60761E09" Ref="#PWR039"  Part="1" 
-F 0 "#PWR039" H 8500 1750 50  0001 C CNN
-F 1 "VSYS" H 8515 2073 50  0000 C CNN
-F 2 "" H 8500 1900 50  0001 C CNN
-F 3 "" H 8500 1900 50  0001 C CNN
-	1    8500 1900
-	1    0    0    -1  
-$EndComp
-Connection ~ 9800 1900
-$Comp
-L power:GND #PWR?
-U 1 1 60761DFA
-P 9800 2100
-AR Path="/60761DFA" Ref="#PWR?"  Part="1" 
-AR Path="/60725D85/60761DFA" Ref="#PWR045"  Part="1" 
-F 0 "#PWR045" H 9800 1850 50  0001 C CNN
-F 1 "GND" H 9805 1927 50  0000 C CNN
-F 2 "" H 9800 2100 50  0001 C CNN
-F 3 "" H 9800 2100 50  0001 C CNN
-	1    9800 2100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8500 1900 8900 1900
-$Comp
-L power:GND #PWR?
-U 1 1 60761DF3
-P 8500 2100
-AR Path="/60761DF3" Ref="#PWR?"  Part="1" 
-AR Path="/60725D85/60761DF3" Ref="#PWR040"  Part="1" 
-F 0 "#PWR040" H 8500 1850 50  0001 C CNN
-F 1 "GND" H 8505 1927 50  0000 C CNN
-F 2 "" H 8500 2100 50  0001 C CNN
-F 3 "" H 8500 2100 50  0001 C CNN
-	1    8500 2100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8600 2000 8900 2000
-Text Label 8600 2000 0    50   ~ 0
-PWROFF
-$Comp
-L power:GND #PWR?
-U 1 1 60761DE3
-P 9300 2300
-AR Path="/60761DE3" Ref="#PWR?"  Part="1" 
-AR Path="/60725D85/60761DE3" Ref="#PWR041"  Part="1" 
-F 0 "#PWR041" H 9300 2050 50  0001 C CNN
-F 1 "GND" H 9305 2127 50  0000 C CNN
-F 2 "" H 9300 2300 50  0001 C CNN
-F 3 "" H 9300 2300 50  0001 C CNN
-	1    9300 2300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9700 1900 9800 1900
-$Comp
-L power:+3V3 #PWR?
-U 1 1 60761DDC
-P 9800 1900
-AR Path="/60761DDC" Ref="#PWR?"  Part="1" 
-AR Path="/60725D85/60761DDC" Ref="#PWR044"  Part="1" 
-F 0 "#PWR044" H 9800 1750 50  0001 C CNN
-F 1 "+3V3" H 9815 2073 50  0000 C CNN
-F 2 "" H 9800 1900 50  0001 C CNN
-F 3 "" H 9800 1900 50  0001 C CNN
-	1    9800 1900
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	900  1000 7500 1000
-Text HLabel 1550 2900 0    50   Input ~ 0
+Text HLabel 1750 2900 0    50   Input ~ 0
 D+
-Text HLabel 1550 3000 0    50   Input ~ 0
+Text HLabel 1750 3000 0    50   Input ~ 0
 D-
-Text HLabel 1550 3200 0    50   Input ~ 0
+Text HLabel 1750 3200 0    50   Input ~ 0
 SCL
 $Comp
 L Device:LED LED1
@@ -862,13 +637,7 @@ Wire Wire Line
 	2200 5000 2500 5000
 Text Label 2500 5000 2    50   ~ 0
 CHGLED
-Text Label 1550 2900 0    50   ~ 0
-D+
-Text Label 1550 3300 0    50   ~ 0
-SDA
-Text Label 1550 3200 0    50   ~ 0
-SCL
-Text HLabel 1550 3300 0    50   Input ~ 0
+Text HLabel 1750 3300 0    50   Input ~ 0
 SDA
 Text Notes 1000 1250 0    100  ~ 20
 Battery charger
@@ -947,97 +716,6 @@ $EndComp
 Text Label 1850 2500 2    30   ~ 0
 PMID
 $Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 60B44FA4
-P 8550 5500
-AR Path="/60B44FA4" Ref="J?"  Part="1" 
-AR Path="/60725D85/60B44FA4" Ref="J4"  Part="1" 
-F 0 "J4" H 8630 5492 50  0000 L CNN
-F 1 "JST_PH" H 8630 5401 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal" H 8550 5500 50  0001 C CNN
-F 3 "~" H 8550 5500 50  0001 C CNN
-F 4 "S2B-PH-SM4-TB" H 8550 5500 50  0001 C CNN "Part"
-F 5 "Battery" H 8550 5500 50  0001 C CNN "Comment"
-	1    8550 5500
-	-1   0    0    -1  
-$EndComp
-$Comp
-L project:VBAT #PWR0101
-U 1 1 60B44FAA
-P 10100 5400
-F 0 "#PWR0101" H 10100 5250 50  0001 C CNN
-F 1 "VBAT" H 10115 5573 50  0000 C CNN
-F 2 "" H 10100 5400 50  0001 C CNN
-F 3 "" H 10100 5400 50  0001 C CNN
-	1    10100 5400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9550 5400 9550 5500
-Wire Wire Line
-	8750 5500 8750 5400
-Connection ~ 9550 5400
-Wire Wire Line
-	9550 5400 9650 5400
-$Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 60B44FC2
-P 9350 5500
-AR Path="/60B44FC2" Ref="J?"  Part="1" 
-AR Path="/60725D85/60B44FC2" Ref="J5"  Part="1" 
-F 0 "J5" H 9429 5492 50  0000 L CNN
-F 1 "PicoBlade" H 9429 5401 50  0000 L CNN
-F 2 "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal" H 9350 5500 50  0001 C CNN
-F 3 "~" H 9350 5500 50  0001 C CNN
-F 4 "53261-0271" H 9350 5500 50  0001 C CNN "Part"
-F 5 "Battery" H 9350 5500 50  0001 C CNN "Comment"
-	1    9350 5500
-	-1   0    0    -1  
-$EndComp
-Text Notes 8000 5150 0    100  ~ 20
-Battery connector
-$Comp
-L Device:Fuse F?
-U 1 1 60B44FCB
-P 9800 5400
-AR Path="/60B44FCB" Ref="F?"  Part="1" 
-AR Path="/60725D85/60B44FCB" Ref="F1"  Part="1" 
-F 0 "F1" V 9513 5400 50  0000 C CNN
-F 1 "3A" V 9604 5400 50  0000 C CNN
-F 2 "Fuse:Fuseholder_Littelfuse_Nano2_154x" V 9730 5400 50  0001 C CNN
-F 3 "~" H 9800 5400 50  0001 C CNN
-F 4 "0154003." V 9695 5400 50  0000 C CNN "Part"
-F 5 "0453003." V 9800 5400 50  0001 C CNN "PartAlt"
-	1    9800 5400
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9950 5400 10100 5400
-Wire Wire Line
-	8750 5400 9550 5400
-$Comp
-L power:GNDPWR #PWR0102
-U 1 1 60B47E0F
-P 8750 5600
-F 0 "#PWR0102" H 8750 5400 50  0001 C CNN
-F 1 "GNDPWR" H 8754 5446 50  0000 C CNN
-F 2 "" H 8750 5550 50  0001 C CNN
-F 3 "" H 8750 5550 50  0001 C CNN
-	1    8750 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDPWR #PWR0103
-U 1 1 60B4D279
-P 9550 5600
-F 0 "#PWR0103" H 9550 5400 50  0001 C CNN
-F 1 "GNDPWR" H 9554 5446 50  0000 C CNN
-F 2 "" H 9550 5550 50  0001 C CNN
-F 3 "" H 9550 5550 50  0001 C CNN
-	1    9550 5600
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GNDPWR #PWR0104
 U 1 1 60B4E0EF
 P 3600 2700
@@ -1106,4 +784,158 @@ Tie point for power ground
 Wire Wire Line
 	2650 2700 3600 2700
 Connection ~ 3600 2700
+Text Notes 8750 1400 0    100  ~ 20
+3.3V regulator
+Wire Wire Line
+	1750 2900 1850 2900
+Wire Wire Line
+	1750 3000 1850 3000
+Wire Wire Line
+	1550 3100 1850 3100
+Wire Wire Line
+	1750 3200 1850 3200
+Wire Wire Line
+	1750 3300 1850 3300
+$Comp
+L power:GND #PWR?
+U 1 1 60761EA8
+P 5850 4000
+AR Path="/60761EA8" Ref="#PWR?"  Part="1" 
+AR Path="/60725D85/60761EA8" Ref="#PWR035"  Part="1" 
+F 0 "#PWR035" H 5850 3750 50  0001 C CNN
+F 1 "GND" H 5855 3827 50  0000 C CNN
+F 2 "" H 5850 4000 50  0001 C CNN
+F 3 "" H 5850 4000 50  0001 C CNN
+	1    5850 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 60761EA2
+P 5850 3900
+AR Path="/60761EA2" Ref="R?"  Part="1" 
+AR Path="/60725D85/60761EA2" Ref="R10"  Part="1" 
+F 0 "R10" H 5909 3946 50  0000 L CNN
+F 1 "10k" H 5909 3855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 5850 3900 50  0001 C CNN
+F 3 "~" H 5850 3900 50  0001 C CNN
+F 4 "MCP73832" H 5850 3900 50  0001 C CNN "Variant"
+	1    5850 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 3800 6250 3800
+$Comp
+L Device:C_Small C?
+U 1 1 60761E42
+P 8650 2000
+AR Path="/60761E42" Ref="C?"  Part="1" 
+AR Path="/60725D85/60761E42" Ref="C12"  Part="1" 
+F 0 "C12" H 8559 2046 50  0000 R CNN
+F 1 "1uF" H 8559 1955 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8650 2000 50  0001 C CNN
+F 3 "~" H 8650 2000 50  0001 C CNN
+	1    8650 2000
+	1    0    0    -1  
+$EndComp
+Connection ~ 8650 1900
+$Comp
+L project:VSYS #PWR?
+U 1 1 60761E09
+P 8650 1900
+AR Path="/60761E09" Ref="#PWR?"  Part="1" 
+AR Path="/60725D85/60761E09" Ref="#PWR039"  Part="1" 
+F 0 "#PWR039" H 8650 1750 50  0001 C CNN
+F 1 "VSYS" H 8665 2073 50  0000 C CNN
+F 2 "" H 8650 1900 50  0001 C CNN
+F 3 "" H 8650 1900 50  0001 C CNN
+	1    8650 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60761DF3
+P 8650 2100
+AR Path="/60761DF3" Ref="#PWR?"  Part="1" 
+AR Path="/60725D85/60761DF3" Ref="#PWR040"  Part="1" 
+F 0 "#PWR040" H 8650 1850 50  0001 C CNN
+F 1 "GND" H 8655 1927 50  0000 C CNN
+F 2 "" H 8650 2100 50  0001 C CNN
+F 3 "" H 8650 2100 50  0001 C CNN
+	1    8650 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 1900 9100 1900
+Text HLabel 9100 2000 0    50   Input ~ 0
+PWRON
+$Comp
+L power:+3V3 #PWR?
+U 1 1 60761DDC
+P 10000 1900
+AR Path="/60761DDC" Ref="#PWR?"  Part="1" 
+AR Path="/60725D85/60761DDC" Ref="#PWR044"  Part="1" 
+F 0 "#PWR044" H 10000 1750 50  0001 C CNN
+F 1 "+3V3" H 10015 2073 50  0000 C CNN
+F 2 "" H 10000 1900 50  0001 C CNN
+F 3 "" H 10000 1900 50  0001 C CNN
+	1    10000 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 1900 10000 1900
+$Comp
+L power:GND #PWR?
+U 1 1 60761DE3
+P 9500 2300
+AR Path="/60761DE3" Ref="#PWR?"  Part="1" 
+AR Path="/60725D85/60761DE3" Ref="#PWR041"  Part="1" 
+F 0 "#PWR041" H 9500 2050 50  0001 C CNN
+F 1 "GND" H 9505 2127 50  0000 C CNN
+F 2 "" H 9500 2300 50  0001 C CNN
+F 3 "" H 9500 2300 50  0001 C CNN
+	1    9500 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60761DFA
+P 10000 2100
+AR Path="/60761DFA" Ref="#PWR?"  Part="1" 
+AR Path="/60725D85/60761DFA" Ref="#PWR045"  Part="1" 
+F 0 "#PWR045" H 10000 1850 50  0001 C CNN
+F 1 "GND" H 10005 1927 50  0000 C CNN
+F 2 "" H 10000 2100 50  0001 C CNN
+F 3 "" H 10000 2100 50  0001 C CNN
+	1    10000 2100
+	1    0    0    -1  
+$EndComp
+Connection ~ 10000 1900
+$Comp
+L Device:C_Small C?
+U 1 1 60761E3C
+P 10000 2000
+AR Path="/60761E3C" Ref="C?"  Part="1" 
+AR Path="/60725D85/60761E3C" Ref="C13"  Part="1" 
+F 0 "C13" H 10092 2046 50  0000 L CNN
+F 1 "1uF" H 10092 1955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 10000 2000 50  0001 C CNN
+F 3 "~" H 10000 2000 50  0001 C CNN
+	1    10000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L project:MCP1811 U?
+U 1 1 60761E6D
+P 9500 2000
+AR Path="/60761E6D" Ref="U?"  Part="1" 
+AR Path="/60725D85/60761E6D" Ref="U4"  Part="1" 
+F 0 "U4" H 9500 2342 50  0000 C CNN
+F 1 "MCP1811AT-033/OT" H 9500 2251 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 9500 2200 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/MCP1811A-11B-12A-12B-Data-Sheet-20006088B.pdf" H 9500 2000 50  0001 C CNN
+F 4 "MCP1811AT-033/TT" H 9500 2000 50  0001 C CNN "Part"
+	1    9500 2000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
