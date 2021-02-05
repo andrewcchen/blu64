@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title "BLU64 Keyboard"
-Date ""
-Rev ""
+Date "2021-02-05"
+Rev "A"
 Comp ""
 Comment1 "Licensed under CERN-OHL-S v2 or any later version"
 Comment2 "Copyright (c) 2021 Andrew Chen <andrew@xortux.com>"
@@ -285,7 +285,7 @@ F 0 "Y1" V 1750 1700 50  0000 L CNN
 F 1 "32.768kHz" V 1850 1700 50  0000 L CNN
 F 2 "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm" H 1800 1600 50  0001 C CNN
 F 3 "~" H 1800 1600 50  0001 C CNN
-F 4 "CL=9pf" V 1950 1850 50  0000 C CNN "Comment"
+F 4 "CL=12.5pf" V 1950 1850 50  0000 C CNN "Comment"
 	1    1800 1600
 	0    1    1    0   
 $EndComp
@@ -761,14 +761,6 @@ Text Label 2000 2500 0    50   ~ 0
 row2
 Text Label 2000 2300 0    50   ~ 0
 row1
-$Sheet
-S 750  4100 550  400 
-U 600B0C92
-F0 "Matrix" 50
-F1 "matrix.sch" 50
-F2 "row[1..5]" I R 1300 4200 50 
-F3 "col[1..14]" O R 1300 4400 50 
-$EndSheet
 Text Notes 1000 1000 0    100  ~ 20
 MCU
 Text Notes 1000 5650 0    100  ~ 20
@@ -993,40 +985,39 @@ Text Notes 5700 6950 0    50   ~ 0
 $Comp
 L power:+3V3 #PWR048
 U 1 1 6056D1CE
-P 5000 4100
-F 0 "#PWR048" H 5000 3950 50  0001 C CNN
-F 1 "+3V3" H 5015 4273 50  0000 C CNN
-F 2 "" H 5000 4100 50  0001 C CNN
-F 3 "" H 5000 4100 50  0001 C CNN
-	1    5000 4100
+P 5200 4100
+F 0 "#PWR048" H 5200 3950 50  0001 C CNN
+F 1 "+3V3" H 5215 4273 50  0000 C CNN
+F 2 "" H 5200 4100 50  0001 C CNN
+F 3 "" H 5200 4100 50  0001 C CNN
+	1    5200 4100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Small LED2
+L Device:LED LED2
 U 1 1 6057496B
-P 5000 4200
-F 0 "LED2" V 5046 4130 50  0000 R CNN
-F 1 "Red" V 4955 4130 50  0000 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric" V 5000 4200 50  0001 C CNN
-F 3 "~" V 5000 4200 50  0001 C CNN
-	1    5000 4200
+P 5200 4250
+F 0 "LED2" V 5284 4330 50  0000 L CNN
+F 1 "Red" V 5193 4330 50  0000 L CNN
+F 2 "LED_SMD:LED_0805_2012Metric" V 5200 4250 50  0001 C CNN
+F 3 "~" V 5200 4250 50  0001 C CNN
+F 4 "0805" V 5102 4330 50  0000 L CNN "Comment"
+	1    5200 4250
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R_Small R14
 U 1 1 6057B6C6
-P 5000 4400
-F 0 "R14" H 5059 4446 50  0000 L CNN
-F 1 "1k" H 5059 4355 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 5000 4400 50  0001 C CNN
-F 3 "~" H 5000 4400 50  0001 C CNN
-	1    5000 4400
+P 5200 4600
+F 0 "R14" H 5259 4646 50  0000 L CNN
+F 1 "1k" H 5259 4555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 5200 4600 50  0001 C CNN
+F 3 "~" H 5200 4600 50  0001 C CNN
+	1    5200 4600
 	1    0    0    -1  
 $EndComp
-Text Label 5000 4600 0    50   ~ 0
+Text Label 5200 4800 0    50   ~ 0
 CAPS_LED
-Wire Wire Line
-	5000 4600 5000 4500
 Wire Wire Line
 	3700 2300 4100 2300
 Text Label 4100 2300 2    50   ~ 0
@@ -1061,287 +1052,324 @@ Wire Wire Line
 Wire Wire Line
 	4100 2900 3700 2900
 Wire Wire Line
-	9300 5400 9600 5400
-Text Label 9600 5400 2    50   ~ 0
+	9300 5200 9600 5200
+Text Label 9600 5200 2    50   ~ 0
 PWRON
 Wire Wire Line
-	8600 5400 8400 5400
+	8600 5200 8400 5200
+Wire Wire Line
+	8400 5300 8600 5300
+Wire Wire Line
+	8400 5400 8600 5400
 Wire Wire Line
 	8400 5500 8600 5500
-Wire Wire Line
-	8400 5600 8600 5600
-Wire Wire Line
-	8400 5700 8600 5700
-Text Label 8400 5700 0    50   ~ 0
-SDA
-Text Label 8400 5600 0    50   ~ 0
-SCL
 Text Label 8400 5500 0    50   ~ 0
-D-
+SDA
 Text Label 8400 5400 0    50   ~ 0
+SCL
+Text Label 8400 5300 0    50   ~ 0
+D-
+Text Label 8400 5200 0    50   ~ 0
 D+
-$Sheet
-S 8600 5300 700  500 
-U 60725D85
-F0 "Power" 50
-F1 "power.sch" 50
-F2 "D+" I L 8600 5400 50 
-F3 "D-" I L 8600 5500 50 
-F4 "SCL" I L 8600 5600 50 
-F5 "SDA" I L 8600 5700 50 
-F6 "PWRON" I R 9300 5400 50 
-$EndSheet
-$Comp
-L power:GNDPWR #PWR?
-U 1 1 601EFCCE
-P 9350 4200
-AR Path="/60725D85/601EFCCE" Ref="#PWR?"  Part="1" 
-AR Path="/601EFCCE" Ref="#PWR051"  Part="1" 
-F 0 "#PWR051" H 9350 4000 50  0001 C CNN
-F 1 "GNDPWR" H 9354 4046 50  0000 C CNN
-F 2 "" H 9350 4150 50  0001 C CNN
-F 3 "" H 9350 4150 50  0001 C CNN
-	1    9350 4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDPWR #PWR?
-U 1 1 601EFCC8
-P 8550 4200
-AR Path="/60725D85/601EFCC8" Ref="#PWR?"  Part="1" 
-AR Path="/601EFCC8" Ref="#PWR050"  Part="1" 
-F 0 "#PWR050" H 8550 4000 50  0001 C CNN
-F 1 "GNDPWR" H 8554 4046 50  0000 C CNN
-F 2 "" H 8550 4150 50  0001 C CNN
-F 3 "" H 8550 4150 50  0001 C CNN
-	1    8550 4200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8550 4000 9350 4000
-Wire Wire Line
-	9750 4000 9900 4000
-$Comp
-L Device:Fuse F1
-U 1 1 601EFCC0
-P 9600 4000
-AR Path="/601EFCC0" Ref="F1"  Part="1" 
-AR Path="/60725D85/601EFCC0" Ref="F?"  Part="1" 
-F 0 "F1" V 9313 4000 50  0000 C CNN
-F 1 "3A" V 9404 4000 50  0000 C CNN
-F 2 "Fuse:Fuseholder_Littelfuse_Nano2_154x" V 9530 4000 50  0001 C CNN
-F 3 "~" H 9600 4000 50  0001 C CNN
-F 4 "0154003." V 9495 4000 50  0000 C CNN "Part"
-F 5 "0453003." V 9600 4000 50  0001 C CNN "PartAlt"
-	1    9600 4000
-	0    1    1    0   
-$EndComp
-Text Notes 8350 3500 0    100  ~ 20
-Battery connector
-$Comp
-L Connector_Generic:Conn_01x02 J5
-U 1 1 601EFCB7
-P 9150 4100
-AR Path="/601EFCB7" Ref="J5"  Part="1" 
-AR Path="/60725D85/601EFCB7" Ref="J?"  Part="1" 
-F 0 "J5" H 9229 4092 50  0000 L CNN
-F 1 "PicoBlade" H 9229 4001 50  0000 L CNN
-F 2 "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal" H 9150 4100 50  0001 C CNN
-F 3 "~" H 9150 4100 50  0001 C CNN
-F 4 "53261-0271" H 9150 4100 50  0001 C CNN "Part"
-F 5 "Battery" H 9150 4100 50  0001 C CNN "Comment"
-	1    9150 4100
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	9350 4000 9450 4000
-Connection ~ 9350 4000
-Wire Wire Line
-	8550 4100 8550 4000
-Wire Wire Line
-	9350 4000 9350 4100
-$Comp
-L project:VBAT #PWR?
-U 1 1 601EFCAB
-P 9900 4000
-AR Path="/60725D85/601EFCAB" Ref="#PWR?"  Part="1" 
-AR Path="/601EFCAB" Ref="#PWR049"  Part="1" 
-F 0 "#PWR049" H 9900 3850 50  0001 C CNN
-F 1 "VBAT" H 9915 4173 50  0000 C CNN
-F 2 "" H 9900 4000 50  0001 C CNN
-F 3 "" H 9900 4000 50  0001 C CNN
-	1    9900 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J4
-U 1 1 601EFCA5
-P 8350 4100
-AR Path="/601EFCA5" Ref="J4"  Part="1" 
-AR Path="/60725D85/601EFCA5" Ref="J?"  Part="1" 
-F 0 "J4" H 8430 4092 50  0000 L CNN
-F 1 "JST_PH" H 8430 4001 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal" H 8350 4100 50  0001 C CNN
-F 3 "~" H 8350 4100 50  0001 C CNN
-F 4 "S2B-PH-SM4-TB" H 8350 4100 50  0001 C CNN "Part"
-F 5 "Battery" H 8350 4100 50  0001 C CNN "Comment"
-	1    8350 4100
-	-1   0    0    -1  
-$EndComp
-Text Notes 8500 1450 0    100  ~ 20
-Power switch
-Text Notes 8000 3900 0    50   ~ 0
-Choice of 2 battery connectors
 Wire Notes Line
 	4400 3500 6950 3500
 Text Notes 750  2150 0    50   ~ 0
 Battery\nvoltage\nsense\ndivider
-Wire Wire Line
-	8400 2200 8600 2200
+Text Label 4100 3000 2    50   ~ 0
+P40
 $Comp
-L Device:D_Small D35
-U 1 1 604120BD
-P 8300 2200
-F 0 "D35" H 8300 2085 50  0000 C CNN
-F 1 "1N4007" V 8255 2130 50  0001 R CNN
-F 2 "Diode_SMD:D_SOD-123" V 8300 2200 50  0001 C CNN
-F 3 "~" V 8300 2200 50  0001 C CNN
-F 4 "SOD-123 1N4007" V 8300 2200 50  0001 C CNN "Part"
-	1    8300 2200
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	9000 2300 9300 2300
-Connection ~ 9300 2300
-$Comp
-L Device:D_Small D36
-U 1 1 60402A30
-P 9300 2200
-F 0 "D36" V 9300 2130 50  0000 R CNN
-F 1 "1N4007" V 9255 2130 50  0001 R CNN
-F 2 "Diode_SMD:D_SOD-123" V 9300 2200 50  0001 C CNN
-F 3 "~" V 9300 2200 50  0001 C CNN
-F 4 "SOD-123 1N4007" V 9300 2200 50  0001 C CNN "Part"
-	1    9300 2200
+L Device:LED LED3
+U 1 1 602B494E
+P 5400 4250
+F 0 "LED3" V 5484 4132 50  0000 R CNN
+F 1 "Red" V 5393 4132 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" V 5400 4250 50  0001 C CNN
+F 3 "~" V 5400 4250 50  0001 C CNN
+F 4 "DNP" V 5400 4250 50  0001 C CNN "Variant"
+F 5 "3mm" V 5302 4132 50  0000 R CNN "Comment"
+	1    5400 4250
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Switch:SW_SPDT SW1
-U 1 1 601EFCD6
-P 8800 2300
-AR Path="/601EFCD6" Ref="SW1"  Part="1" 
-AR Path="/60725D85/601EFCD6" Ref="SW?"  Part="1" 
-F 0 "SW1" H 8800 2750 50  0000 C CNN
-F 1 "Slide Switch" H 8800 2650 50  0000 C CNN
-F 2 "project:SW_OS102011MS2QN1" H 8800 2300 50  0001 C CNN
-F 3 "https://www.ckswitches.com/media/1428/os.pdf" H 8800 2300 50  0001 C CNN
-F 4 "OS102011MS2QN1" H 8800 2550 50  0000 C CNN "Part"
-	1    8800 2300
-	-1   0    0    -1  
-$EndComp
-Text Notes 8500 2200 0    50   ~ 0
-On
-Text Notes 8500 2400 0    50   ~ 0
-Off
-$Comp
-L Device:C_Small C16
-U 1 1 602E742D
-P 9300 2400
-F 0 "C16" H 9392 2446 50  0000 L CNN
-F 1 "1uF" H 9392 2355 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 9300 2400 50  0001 C CNN
-F 3 "~" H 9300 2400 50  0001 C CNN
-	1    9300 2400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR053
-U 1 1 602E8614
-P 9300 2500
-F 0 "#PWR053" H 9300 2250 50  0001 C CNN
-F 1 "GND" H 9305 2327 50  0000 C CNN
-F 2 "" H 9300 2500 50  0001 C CNN
-F 3 "" H 9300 2500 50  0001 C CNN
-	1    9300 2500
-	1    0    0    -1  
-$EndComp
+Connection ~ 5200 4100
+Text Notes 5400 4000 0    50   ~ 0
+Choice of smd and tht\nfor caps lock led
 Wire Wire Line
-	8300 2400 8600 2400
-$Comp
-L Device:R_Small R16
-U 1 1 60331114
-P 8200 2400
-F 0 "R16" V 8096 2400 50  0000 C CNN
-F 1 "10k" V 8005 2400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 8200 2400 50  0001 C CNN
-F 3 "~" H 8200 2400 50  0001 C CNN
-	1    8200 2400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR043
-U 1 1 601EFCEC
-P 7900 2400
-AR Path="/601EFCEC" Ref="#PWR043"  Part="1" 
-AR Path="/60725D85/601EFCEC" Ref="#PWR?"  Part="1" 
-F 0 "#PWR043" H 7900 2150 50  0001 C CNN
-F 1 "GND" H 7905 2227 50  0000 C CNN
-F 2 "" H 7900 2400 50  0001 C CNN
-F 3 "" H 7900 2400 50  0001 C CNN
-	1    7900 2400
-	-1   0    0    -1  
-$EndComp
+	5200 4400 5200 4450
 Wire Wire Line
-	8100 2400 7900 2400
-$Comp
-L project:VSYS #PWR042
-U 1 1 601EFCE2
-P 7900 2200
-AR Path="/601EFCE2" Ref="#PWR042"  Part="1" 
-AR Path="/60725D85/601EFCE2" Ref="#PWR?"  Part="1" 
-F 0 "#PWR042" H 7900 2050 50  0001 C CNN
-F 1 "VSYS" H 7915 2373 50  0000 C CNN
-F 2 "" H 7900 2200 50  0001 C CNN
-F 3 "" H 7900 2200 50  0001 C CNN
-	1    7900 2200
-	-1   0    0    -1  
-$EndComp
+	5200 4700 5200 4800
 Wire Wire Line
-	7900 2200 8000 2200
-$Comp
-L Device:R_Small R15
-U 1 1 60435371
-P 8100 2200
-F 0 "R15" V 8296 2200 50  0000 C CNN
-F 1 "10k" V 8205 2200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 8100 2200 50  0001 C CNN
-F 3 "~" H 8100 2200 50  0001 C CNN
-	1    8100 2200
-	0    -1   -1   0   
-$EndComp
-Text Notes 9500 2650 0    50   ~ 0
-10ms switch debounce
-Text Notes 9500 2050 0    50   ~ 0
-Force power on when 5V connected\nto allow mcu to configure charger
+	5400 4100 5200 4100
 Wire Wire Line
-	9300 2300 9900 2300
-Text Label 9900 2300 2    50   ~ 0
-PWRON
+	5400 4400 5400 4450
+Wire Wire Line
+	5400 4450 5200 4450
+Connection ~ 5200 4450
+Wire Wire Line
+	5200 4450 5200 4500
 $Comp
 L power:VBUS #PWR052
 U 1 1 6037CC0B
+P 9300 1700
+F 0 "#PWR052" H 9300 1550 50  0001 C CNN
+F 1 "VBUS" H 9315 1873 50  0000 C CNN
+F 2 "" H 9300 1700 50  0001 C CNN
+F 3 "" H 9300 1700 50  0001 C CNN
+	1    9300 1700
+	1    0    0    -1  
+$EndComp
+Text Label 9900 1900 2    50   ~ 0
+PWRON
+Wire Wire Line
+	9300 1900 9900 1900
+Text Notes 9500 1650 0    50   ~ 0
+Force power on when 5V connected\nto allow mcu to configure charger
+Text Notes 9500 2250 0    50   ~ 0
+10ms switch debounce
+$Comp
+L Device:R_Small R15
+U 1 1 60435371
+P 8100 1800
+F 0 "R15" V 8296 1800 50  0000 C CNN
+F 1 "10k" V 8205 1800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 8100 1800 50  0001 C CNN
+F 3 "~" H 8100 1800 50  0001 C CNN
+	1    8100 1800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7900 1800 8000 1800
+$Comp
+L project:VSYS #PWR042
+U 1 1 601EFCE2
+P 7900 1800
+AR Path="/601EFCE2" Ref="#PWR042"  Part="1" 
+AR Path="/60725D85/601EFCE2" Ref="#PWR?"  Part="1" 
+F 0 "#PWR042" H 7900 1650 50  0001 C CNN
+F 1 "VSYS" H 7915 1973 50  0000 C CNN
+F 2 "" H 7900 1800 50  0001 C CNN
+F 3 "" H 7900 1800 50  0001 C CNN
+	1    7900 1800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 2000 7900 2000
+$Comp
+L power:GND #PWR043
+U 1 1 601EFCEC
+P 7900 2000
+AR Path="/601EFCEC" Ref="#PWR043"  Part="1" 
+AR Path="/60725D85/601EFCEC" Ref="#PWR?"  Part="1" 
+F 0 "#PWR043" H 7900 1750 50  0001 C CNN
+F 1 "GND" H 7905 1827 50  0000 C CNN
+F 2 "" H 7900 2000 50  0001 C CNN
+F 3 "" H 7900 2000 50  0001 C CNN
+	1    7900 2000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R16
+U 1 1 60331114
+P 8200 2000
+F 0 "R16" V 8096 2000 50  0000 C CNN
+F 1 "10k" V 8005 2000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 8200 2000 50  0001 C CNN
+F 3 "~" H 8200 2000 50  0001 C CNN
+	1    8200 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8300 2000 8600 2000
+$Comp
+L power:GND #PWR053
+U 1 1 602E8614
 P 9300 2100
-F 0 "#PWR052" H 9300 1950 50  0001 C CNN
-F 1 "VBUS" H 9315 2273 50  0000 C CNN
+F 0 "#PWR053" H 9300 1850 50  0001 C CNN
+F 1 "GND" H 9305 1927 50  0000 C CNN
 F 2 "" H 9300 2100 50  0001 C CNN
 F 3 "" H 9300 2100 50  0001 C CNN
 	1    9300 2100
 	1    0    0    -1  
 $EndComp
-Text Label 4100 3000 2    50   ~ 0
-P40
+$Comp
+L Device:C_Small C16
+U 1 1 602E742D
+P 9300 2000
+F 0 "C16" H 9392 2046 50  0000 L CNN
+F 1 "1uF" H 9392 1955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 9300 2000 50  0001 C CNN
+F 3 "~" H 9300 2000 50  0001 C CNN
+	1    9300 2000
+	1    0    0    -1  
+$EndComp
+Text Notes 8500 2000 0    50   ~ 0
+Off
+Text Notes 8500 1800 0    50   ~ 0
+On
+$Comp
+L Switch:SW_SPDT SW1
+U 1 1 601EFCD6
+P 8800 1900
+AR Path="/601EFCD6" Ref="SW1"  Part="1" 
+AR Path="/60725D85/601EFCD6" Ref="SW?"  Part="1" 
+F 0 "SW1" H 8800 2350 50  0000 C CNN
+F 1 "Slide Switch" H 8800 2250 50  0000 C CNN
+F 2 "project:SW_OS102011MS2QN1" H 8800 1900 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/1428/os.pdf" H 8800 1900 50  0001 C CNN
+F 4 "OS102011MS2QN1" H 8800 2150 50  0000 C CNN "Part"
+	1    8800 1900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D36
+U 1 1 60402A30
+P 9300 1800
+F 0 "D36" V 9300 1730 50  0000 R CNN
+F 1 "1N4007" V 9255 1730 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 9300 1800 50  0001 C CNN
+F 3 "~" V 9300 1800 50  0001 C CNN
+F 4 "SOD-123 1N4007" V 9300 1800 50  0001 C CNN "Part"
+	1    9300 1800
+	0    -1   -1   0   
+$EndComp
+Connection ~ 9300 1900
+Wire Wire Line
+	9000 1900 9300 1900
+$Comp
+L Device:D_Small D35
+U 1 1 604120BD
+P 8300 1800
+F 0 "D35" H 8300 1685 50  0000 C CNN
+F 1 "1N4007" V 8255 1730 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 8300 1800 50  0001 C CNN
+F 3 "~" V 8300 1800 50  0001 C CNN
+F 4 "SOD-123 1N4007" V 8300 1800 50  0001 C CNN "Part"
+	1    8300 1800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8400 1800 8600 1800
+Text Notes 8000 3500 0    50   ~ 0
+Choice of 2 battery connectors
+Text Notes 8500 1250 0    100  ~ 20
+Power switch
+$Comp
+L Connector_Generic:Conn_01x02 J4
+U 1 1 601EFCA5
+P 8350 3700
+AR Path="/601EFCA5" Ref="J4"  Part="1" 
+AR Path="/60725D85/601EFCA5" Ref="J?"  Part="1" 
+F 0 "J4" H 8430 3692 50  0000 L CNN
+F 1 "JST_PH" H 8430 3601 50  0000 L CNN
+F 2 "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal" H 8350 3700 50  0001 C CNN
+F 3 "~" H 8350 3700 50  0001 C CNN
+F 4 "S2B-PH-SM4-TB" H 8350 3700 50  0001 C CNN "Part"
+F 5 "Battery" H 8350 3700 50  0001 C CNN "Comment"
+	1    8350 3700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L project:VBAT #PWR?
+U 1 1 601EFCAB
+P 9900 3600
+AR Path="/60725D85/601EFCAB" Ref="#PWR?"  Part="1" 
+AR Path="/601EFCAB" Ref="#PWR049"  Part="1" 
+F 0 "#PWR049" H 9900 3450 50  0001 C CNN
+F 1 "VBAT" H 9915 3773 50  0000 C CNN
+F 2 "" H 9900 3600 50  0001 C CNN
+F 3 "" H 9900 3600 50  0001 C CNN
+	1    9900 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 3600 9350 3700
+Wire Wire Line
+	8550 3700 8550 3600
+Connection ~ 9350 3600
+Wire Wire Line
+	9350 3600 9450 3600
+$Comp
+L Connector_Generic:Conn_01x02 J5
+U 1 1 601EFCB7
+P 9150 3700
+AR Path="/601EFCB7" Ref="J5"  Part="1" 
+AR Path="/60725D85/601EFCB7" Ref="J?"  Part="1" 
+F 0 "J5" H 9229 3692 50  0000 L CNN
+F 1 "PicoBlade" H 9229 3601 50  0000 L CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal" H 9150 3700 50  0001 C CNN
+F 3 "~" H 9150 3700 50  0001 C CNN
+F 4 "53261-0271" H 9150 3700 50  0001 C CNN "Part"
+F 5 "Battery" H 9150 3700 50  0001 C CNN "Comment"
+	1    9150 3700
+	-1   0    0    -1  
+$EndComp
+Text Notes 8350 3100 0    100  ~ 20
+Battery connector
+$Comp
+L Device:Fuse F1
+U 1 1 601EFCC0
+P 9600 3600
+AR Path="/601EFCC0" Ref="F1"  Part="1" 
+AR Path="/60725D85/601EFCC0" Ref="F?"  Part="1" 
+F 0 "F1" V 9313 3600 50  0000 C CNN
+F 1 "3A" V 9404 3600 50  0000 C CNN
+F 2 "Fuse:Fuseholder_Littelfuse_Nano2_154x" V 9530 3600 50  0001 C CNN
+F 3 "~" H 9600 3600 50  0001 C CNN
+F 4 "0154003." V 9495 3600 50  0000 C CNN "Part"
+F 5 "0453003." V 9600 3600 50  0001 C CNN "PartAlt"
+	1    9600 3600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9750 3600 9900 3600
+Wire Wire Line
+	8550 3600 9350 3600
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 601EFCC8
+P 8550 3800
+AR Path="/60725D85/601EFCC8" Ref="#PWR?"  Part="1" 
+AR Path="/601EFCC8" Ref="#PWR050"  Part="1" 
+F 0 "#PWR050" H 8550 3600 50  0001 C CNN
+F 1 "GNDPWR" H 8554 3646 50  0000 C CNN
+F 2 "" H 8550 3750 50  0001 C CNN
+F 3 "" H 8550 3750 50  0001 C CNN
+	1    8550 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 601EFCCE
+P 9350 3800
+AR Path="/60725D85/601EFCCE" Ref="#PWR?"  Part="1" 
+AR Path="/601EFCCE" Ref="#PWR051"  Part="1" 
+F 0 "#PWR051" H 9350 3600 50  0001 C CNN
+F 1 "GNDPWR" H 9354 3646 50  0000 C CNN
+F 2 "" H 9350 3750 50  0001 C CNN
+F 3 "" H 9350 3750 50  0001 C CNN
+	1    9350 3800
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	1800 4300 1800 4800
 Wire Bus Line
 	1900 2000 1900 4800
+$Sheet
+S 8600 5100 700  500 
+U 60725D85
+F0 "Power" 50
+F1 "power.sch" 50
+F2 "D+" I L 8600 5200 50 
+F3 "D-" I L 8600 5300 50 
+F4 "SCL" I L 8600 5400 50 
+F5 "SDA" I L 8600 5500 50 
+F6 "PWRON" I R 9300 5200 50 
+$EndSheet
+$Sheet
+S 750  4100 550  400 
+U 600B0C92
+F0 "Matrix" 50
+F1 "matrix.sch" 50
+F2 "row[1..5]" I R 1300 4200 50 
+F3 "col[1..14]" O R 1300 4400 50 
+$EndSheet
 $EndSCHEMATC
