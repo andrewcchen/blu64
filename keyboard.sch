@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title "BLU64 Keyboard"
-Date "2021-02-05"
+Date "2021-02-14"
 Rev "A"
 Comp ""
 Comment1 "Licensed under CERN-OHL-S v2 or any later version"
@@ -1349,10 +1349,6 @@ F 3 "" H 9350 3750 50  0001 C CNN
 	1    9350 3800
 	1    0    0    -1  
 $EndComp
-Wire Bus Line
-	1800 4300 1800 4800
-Wire Bus Line
-	1900 2000 1900 4800
 $Sheet
 S 8600 5100 700  500 
 U 60725D85
@@ -1372,4 +1368,8 @@ F1 "matrix.sch" 50
 F2 "row[1..5]" I R 1300 4200 50 
 F3 "col[1..14]" O R 1300 4400 50 
 $EndSheet
+Wire Bus Line
+	1800 4300 1800 4800
+Wire Bus Line
+	1900 2000 1900 4800
 $EndSCHEMATC
