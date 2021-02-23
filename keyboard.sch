@@ -278,18 +278,6 @@ Wire Wire Line
 Text Label 3900 2500 2    50   ~ 0
 SCL
 $Comp
-L Device:Crystal_Small Y1
-U 1 1 601DD6F6
-P 1800 1600
-F 0 "Y1" V 1750 1700 50  0000 L CNN
-F 1 "32.768kHz" V 1850 1700 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm" H 1800 1600 50  0001 C CNN
-F 3 "~" H 1800 1600 50  0001 C CNN
-F 4 "CL=12.5pf" V 1950 1850 50  0000 C CNN "Comment"
-	1    1800 1600
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GND #PWR05
 U 1 1 602028FD
 P 1500 1700
@@ -1372,4 +1360,16 @@ Wire Bus Line
 	1800 4300 1800 4800
 Wire Bus Line
 	1900 2000 1900 4800
+$Comp
+L Device:Crystal_Small Y1
+U 1 1 601DD6F6
+P 1800 1600
+F 0 "Y1" V 1750 1700 50  0000 L CNN
+F 1 "32.768kHz" V 1850 1700 50  0000 L CNN
+F 2 "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm" H 1800 1600 50  0001 C CNN
+F 3 "~" H 1800 1600 50  0001 C CNN
+F 4 "CL=12.5pf" V 1650 1900 50  0000 C CNN "Comment"
+	1    1800 1600
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
