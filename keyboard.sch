@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title "BLU64 Keyboard"
-Date "2021-02-14"
-Rev "A"
+Date "2021-03-07"
+Rev "B"
 Comp ""
 Comment1 "Licensed under CERN-OHL-S v2 or any later version"
 Comment2 "Copyright (c) 2021 Andrew Chen <andrew@xortux.com>"
@@ -261,12 +261,12 @@ Wire Wire Line
 $Comp
 L Device:C_Small C2
 U 1 1 601DEB08
-P 1650 1700
-F 0 "C2" V 1550 1700 50  0000 C CNN
-F 1 "12pF" V 1600 1650 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 1650 1700 50  0001 C CNN
-F 3 "~" H 1650 1700 50  0001 C CNN
-	1    1650 1700
+P 1600 1700
+F 0 "C2" V 1463 1700 50  0000 C CNN
+F 1 "12pF" V 1372 1700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1600 1700 50  0001 C CNN
+F 3 "~" H 1600 1700 50  0001 C CNN
+	1    1600 1700
 	0    -1   -1   0   
 $EndComp
 Text Label 3900 2700 2    50   ~ 0
@@ -278,55 +278,23 @@ Wire Wire Line
 Text Label 3900 2500 2    50   ~ 0
 SCL
 $Comp
-L power:GND #PWR05
-U 1 1 602028FD
-P 1500 1700
-F 0 "#PWR05" H 1500 1450 50  0001 C CNN
-F 1 "GND" H 1500 1550 50  0000 C CNN
-F 2 "" H 1500 1700 50  0001 C CNN
-F 3 "" H 1500 1700 50  0001 C CNN
-	1    1500 1700
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C1
 U 1 1 601DE2F5
-P 1650 1500
-F 0 "C1" V 1550 1500 50  0000 C CNN
-F 1 "12pF" V 1600 1550 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 1650 1500 50  0001 C CNN
-F 3 "~" H 1650 1500 50  0001 C CNN
-	1    1650 1500
+P 1600 1500
+F 0 "C1" V 1371 1500 50  0000 C CNN
+F 1 "12pF" V 1462 1500 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1600 1500 50  0001 C CNN
+F 3 "~" H 1600 1500 50  0001 C CNN
+	1    1600 1500
 	0    1    1    0   
-$EndComp
-Connection ~ 1200 2600
-Wire Wire Line
-	1500 2600 1200 2600
-$Comp
-L Device:R_Small R3
-U 1 1 6026264E
-P 1500 2500
-F 0 "R3" H 1559 2546 50  0000 L CNN
-F 1 "10k" H 1559 2455 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 1500 2500 50  0001 C CNN
-F 3 "~" H 1500 2500 50  0001 C CNN
-	1    1500 2500
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1800 1700 2200 1700
 Wire Wire Line
-	1500 1700 1500 1500
-Wire Wire Line
-	1500 1500 1550 1500
-Wire Wire Line
-	1550 1700 1500 1700
-Connection ~ 1500 1700
-Wire Wire Line
-	1750 1700 1800 1700
+	1700 1700 1800 1700
 Connection ~ 1800 1700
 Wire Wire Line
-	1750 1500 1800 1500
+	1700 1500 1800 1500
 Connection ~ 1800 1500
 Wire Wire Line
 	2300 1500 1800 1500
@@ -371,54 +339,36 @@ $EndComp
 $Comp
 L Device:R_Small R1
 U 1 1 603ED6EB
-P 1200 1900
-F 0 "R1" H 1259 1946 50  0000 L CNN
-F 1 "10k 1%" H 1259 1855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 1200 1900 50  0001 C CNN
-F 3 "~" H 1200 1900 50  0001 C CNN
-	1    1200 1900
+P 900 1900
+F 0 "R1" H 959 1946 50  0000 L CNN
+F 1 "1M 1%" H 959 1855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 900 1900 50  0001 C CNN
+F 3 "~" H 900 1900 50  0001 C CNN
+	1    900  1900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small R2
 U 1 1 603EDC7D
-P 1200 2100
-F 0 "R2" H 1259 2146 50  0000 L CNN
-F 1 "10k 1%" H 1259 2055 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 1200 2100 50  0001 C CNN
-F 3 "~" H 1200 2100 50  0001 C CNN
-	1    1200 2100
+P 900 2100
+F 0 "R2" H 959 2146 50  0000 L CNN
+F 1 "1M 1%" H 959 2055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 900 2100 50  0001 C CNN
+F 3 "~" H 900 2100 50  0001 C CNN
+	1    900  2100
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Q_NMOS_GSD Q1
-U 1 1 604DF38B
-P 1300 2400
-F 0 "Q1" H 1505 2446 50  0000 L CNN
-F 1 "2N7002" H 1505 2355 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 1500 2500 50  0001 C CNN
-F 3 "~" H 1300 2400 50  0001 C CNN
-F 4 "2N7002" H 1300 2400 50  0001 C CNN "Part"
-	1    1300 2400
-	-1   0    0    -1  
 $EndComp
 $Comp
 L project:VBAT #PWR01
 U 1 1 6053AEAD
-P 1200 1800
-F 0 "#PWR01" H 1200 1650 50  0001 C CNN
-F 1 "VBAT" H 1215 1973 50  0000 C CNN
-F 2 "" H 1200 1800 50  0001 C CNN
-F 3 "" H 1200 1800 50  0001 C CNN
-	1    1200 1800
+P 900 1800
+F 0 "#PWR01" H 900 1650 50  0001 C CNN
+F 1 "VBAT" H 915 1973 50  0000 C CNN
+F 2 "" H 900 1800 50  0001 C CNN
+F 3 "" H 900 1800 50  0001 C CNN
+	1    900  1800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1500 2100 2500 2100
-Wire Wire Line
-	1500 2400 1500 2100
-Text Label 2000 2100 0    50   ~ 0
-BAT_SENS_EN
 Wire Bus Line
 	1300 4400 1700 4400
 Wire Bus Line
@@ -459,17 +409,7 @@ Entry Wire Line
 	1900 3300 2000 3200
 Entry Wire Line
 	1900 3100 2000 3000
-Connection ~ 1200 2000
-Wire Wire Line
-	1850 2000 1200 2000
-Wire Wire Line
-	1850 1950 1850 2000
-Wire Wire Line
-	2000 1950 1850 1950
-Wire Wire Line
-	2000 2000 2000 1950
-Wire Wire Line
-	2500 2000 2000 2000
+Connection ~ 900  2000
 Entry Wire Line
 	1900 2000 2000 1900
 Entry Wire Line
@@ -479,12 +419,12 @@ Entry Wire Line
 $Comp
 L power:GND #PWR02
 U 1 1 603F2355
-P 1200 2600
-F 0 "#PWR02" H 1200 2350 50  0001 C CNN
-F 1 "GND" H 1205 2427 50  0000 C CNN
-F 2 "" H 1200 2600 50  0001 C CNN
-F 3 "" H 1200 2600 50  0001 C CNN
-	1    1200 2600
+P 900 2200
+F 0 "#PWR02" H 900 1950 50  0001 C CNN
+F 1 "GND" H 905 2027 50  0000 C CNN
+F 2 "" H 900 2200 50  0001 C CNN
+F 3 "" H 900 2200 50  0001 C CNN
+	1    900  2200
 	1    0    0    -1  
 $EndComp
 Text Label 3750 3100 0    50   ~ 0
@@ -810,13 +750,11 @@ F 3 "" H 4600 5850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 4300 6950 0    50   ~ 0
-P5
-Text Label 4300 6850 0    50   ~ 0
-P18
+P4
 Text Label 4300 7050 0    50   ~ 0
-P9
+P5
 Text Label 4300 7150 0    50   ~ 0
-P10
+P40
 Wire Wire Line
 	4600 5950 4300 5950
 Wire Wire Line
@@ -917,30 +855,6 @@ F 3 "" H 6000 6300 50  0001 C CNN
 	1    6000 6300
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C_Small C15
-U 1 1 604CAF25
-P 6000 6200
-F 0 "C15" H 5908 6200 50  0000 R CNN
-F 1 "Ctune" H 5908 6245 50  0001 R CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 6000 6200 50  0001 C CNN
-F 3 "~" H 6000 6200 50  0001 C CNN
-F 4 "DNP" H 6000 6200 50  0001 C CNN "Variant"
-	1    6000 6200
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C_Small C14
-U 1 1 604CD1C7
-P 6000 5900
-F 0 "C14" H 5908 5900 50  0000 R CNN
-F 1 "Ctune" H 5908 5945 50  0001 R CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 6000 5900 50  0001 C CNN
-F 3 "~" H 6000 5900 50  0001 C CNN
-F 4 "DNP" H 6000 5900 50  0001 C CNN "Variant"
-	1    6000 5900
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	5700 6100 6000 6100
 Connection ~ 6000 6100
@@ -1026,7 +940,6 @@ F 6 "DNP" H 6200 7100 50  0001 C CNN "Variant"
 	1    6200 7100
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4100 3000
 NoConn ~ 4100 2900
 NoConn ~ 4100 2800
 NoConn ~ 4100 2600
@@ -1061,8 +974,8 @@ Text Label 8400 5200 0    50   ~ 0
 D+
 Wire Notes Line
 	4400 3500 6950 3500
-Text Notes 750  2150 0    50   ~ 0
-Battery\nvoltage\nsense\ndivider
+Text Notes 700  2500 0    50   ~ 0
+Battery voltage sense
 Text Label 4100 3000 2    50   ~ 0
 P40
 $Comp
@@ -1356,10 +1269,47 @@ F1 "matrix.sch" 50
 F2 "row[1..5]" I R 1300 4200 50 
 F3 "col[1..14]" O R 1300 4400 50 
 $EndSheet
-Wire Bus Line
-	1800 4300 1800 4800
-Wire Bus Line
-	1900 2000 1900 4800
+Wire Wire Line
+	2000 2100 2500 2100
+Text Label 2000 2100 0    50   ~ 0
+P4
+$Comp
+L Device:C_Small C17
+U 1 1 60484F5F
+P 1300 2100
+F 0 "C17" H 1392 2146 50  0000 L CNN
+F 1 "100nF" H 1392 2055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1300 2100 50  0001 C CNN
+F 3 "~" H 1300 2100 50  0001 C CNN
+	1    1300 2100
+	1    0    0    -1  
+$EndComp
+Connection ~ 1300 2000
+Wire Wire Line
+	1300 2000 900  2000
+Wire Wire Line
+	1300 2200 900  2200
+Connection ~ 900  2200
+Wire Wire Line
+	1400 1600 1400 1500
+Connection ~ 1400 1600
+Wire Wire Line
+	1500 1700 1400 1700
+Wire Wire Line
+	1400 1500 1500 1500
+Wire Wire Line
+	1400 1700 1400 1600
+$Comp
+L power:GND #PWR05
+U 1 1 602028FD
+P 1400 1600
+F 0 "#PWR05" H 1400 1350 50  0001 C CNN
+F 1 "GND" V 1405 1472 50  0000 R CNN
+F 2 "" H 1400 1600 50  0001 C CNN
+F 3 "" H 1400 1600 50  0001 C CNN
+	1    1400 1600
+	0    1    1    0   
+$EndComp
 $Comp
 L Device:Crystal_Small Y1
 U 1 1 601DD6F6
@@ -1368,8 +1318,40 @@ F 0 "Y1" V 1750 1700 50  0000 L CNN
 F 1 "32.768kHz" V 1850 1700 50  0000 L CNN
 F 2 "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm" H 1800 1600 50  0001 C CNN
 F 3 "~" H 1800 1600 50  0001 C CNN
-F 4 "CL=12.5pf" V 1650 1900 50  0000 C CNN "Comment"
+F 4 "CL=12.5pf" V 1650 1700 50  0000 L CNN "Comment"
 	1    1800 1600
 	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1300 2000 2500 2000
+Wire Bus Line
+	1800 4300 1800 4800
+Wire Bus Line
+	1900 2000 1900 4800
+Text Label 4300 6850 0    50   ~ 0
+P18
+$Comp
+L Device:C_Small C14
+U 1 1 604CD1C7
+P 6000 5900
+F 0 "C14" H 5908 5900 50  0000 R CNN
+F 1 "Ctune" H 5908 5945 50  0001 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6000 5900 50  0001 C CNN
+F 3 "~" H 6000 5900 50  0001 C CNN
+F 4 "DNP" H 6000 5900 50  0001 C CNN "Variant"
+	1    6000 5900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C15
+U 1 1 604CAF25
+P 6000 6200
+F 0 "C15" H 5908 6200 50  0000 R CNN
+F 1 "Ctune" H 5908 6245 50  0001 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6000 6200 50  0001 C CNN
+F 3 "~" H 6000 6200 50  0001 C CNN
+F 4 "DNP" H 6000 6200 50  0001 C CNN "Variant"
+	1    6000 6200
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC
