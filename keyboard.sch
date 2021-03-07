@@ -749,9 +749,9 @@ F 3 "" H 4600 5850 50  0001 C CNN
 	1    4600 5850
 	0    1    1    0   
 $EndComp
-Text Label 4300 6950 0    50   ~ 0
+Text Label 4300 6850 0    50   ~ 0
 P4
-Text Label 4300 7050 0    50   ~ 0
+Text Label 4300 6950 0    50   ~ 0
 P5
 Text Label 4300 7150 0    50   ~ 0
 P40
@@ -770,11 +770,11 @@ Wire Wire Line
 Wire Wire Line
 	4600 6550 4300 6550
 Wire Wire Line
+	4600 7050 4300 7050
+Wire Wire Line
 	4600 6850 4300 6850
 Wire Wire Line
 	4600 6950 4300 6950
-Wire Wire Line
-	4600 7050 4300 7050
 Wire Wire Line
 	4600 7150 4300 7150
 $Comp
@@ -1322,13 +1322,7 @@ F 4 "CL=12.5pf" V 1650 1700 50  0000 L CNN "Comment"
 	1    1800 1600
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	1300 2000 2500 2000
-Wire Bus Line
-	1800 4300 1800 4800
-Wire Bus Line
-	1900 2000 1900 4800
-Text Label 4300 6850 0    50   ~ 0
+Text Label 4300 7050 0    50   ~ 0
 P18
 $Comp
 L archive:Device_C_Small C14
@@ -1354,4 +1348,10 @@ F 4 "DNP" H 6000 6200 50  0001 C CNN "Variant"
 	1    6000 6200
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	1300 2000 2500 2000
+Wire Bus Line
+	1800 4300 1800 4800
+Wire Bus Line
+	1900 2000 1900 4800
 $EndSCHEMATC
