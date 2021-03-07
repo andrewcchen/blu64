@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name project)(type KiCad)(uri ${KIPRJMOD}/project.pretty)(options "")(descr ""))
+  (lib (name archive)(type KiCad)(uri ${KIPRJMOD}/archive.pretty)(options "")(descr ""))
 )

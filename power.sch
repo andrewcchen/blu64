@@ -16,7 +16,7 @@ $EndDescr
 Text Label 1550 3100 0    50   ~ 0
 CHGLED
 $Comp
-L power:GND #PWR?
+L archive:power_GND #PWR?
 U 1 1 60761EBF
 P 1850 3500
 AR Path="/60761EBF" Ref="#PWR?"  Part="1" 
@@ -29,7 +29,7 @@ F 3 "" H 1850 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L archive:power_GND #PWR?
 U 1 1 60761EC5
 P 2250 3700
 AR Path="/60761EC5" Ref="#PWR?"  Part="1" 
@@ -43,7 +43,7 @@ F 3 "" H 2250 3700 50  0001 C CNN
 $EndComp
 NoConn ~ 1850 3400
 $Comp
-L power:GND #PWR?
+L archive:power_GND #PWR?
 U 1 1 60761ECC
 P 1400 2800
 AR Path="/60761ECC" Ref="#PWR?"  Part="1" 
@@ -80,7 +80,7 @@ Connection ~ 1800 2300
 Wire Wire Line
 	1800 2300 1850 2300
 $Comp
-L power:VBUS #PWR?
+L archive:power_VBUS #PWR?
 U 1 1 60761EE0
 P 1800 2250
 AR Path="/60761EE0" Ref="#PWR?"  Part="1" 
@@ -93,14 +93,14 @@ F 3 "" H 1800 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L project:BQ24295 U?
+L archive:project_BQ24295 U?
 U 1 1 60761EE7
 P 2250 2900
 AR Path="/60761EE7" Ref="U?"  Part="1" 
 AR Path="/60725D85/60761EE7" Ref="U2"  Part="1" 
 F 0 "U2" H 2250 3765 50  0000 C CNN
 F 1 "BQ24295" H 2250 3674 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.65x2.65mm" H 2250 3750 50  0001 C CNN
+F 2 "archive:QFN-24-1EP_4x4mm_P0.5mm_EP2.65x2.65mm" H 2250 3750 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/bq24295.pdf" H 2250 3750 50  0001 C CNN
 F 4 "BQ24295" H 2250 2900 50  0001 C CNN "Variant"
 F 5 "BQ24295" H 2250 2900 50  0001 C CNN "Part"
@@ -108,20 +108,20 @@ F 5 "BQ24295" H 2250 2900 50  0001 C CNN "Part"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L archive:Device_C_Small C?
 U 1 1 60761EF4
 P 1600 2300
 AR Path="/60761EF4" Ref="C?"  Part="1" 
 AR Path="/60725D85/60761EF4" Ref="C5"  Part="1" 
 F 0 "C5" V 1350 2250 50  0000 R CNN
 F 1 "1uF" V 1550 2350 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 1600 2300 50  0001 C CNN
+F 2 "archive:C_0805_2012Metric" H 1600 2300 50  0001 C CNN
 F 3 "~" H 1600 2300 50  0001 C CNN
 	1    1600 2300
 	0    1    -1   0   
 $EndComp
 $Comp
-L project:VBAT #PWR?
+L archive:project_VBAT #PWR?
 U 1 1 60761EFA
 P 2650 2900
 AR Path="/60761EFA" Ref="#PWR?"  Part="1" 
@@ -143,7 +143,7 @@ Wire Wire Line
 	3450 2500 3600 2500
 Connection ~ 3450 2500
 $Comp
-L project:VSYS #PWR?
+L archive:project_VSYS #PWR?
 U 1 1 60761F05
 P 3600 2500
 AR Path="/60761F05" Ref="#PWR?"  Part="1" 
@@ -156,14 +156,14 @@ F 3 "" H 3600 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:L L?
+L archive:Device_L L?
 U 1 1 60761F0E
 P 3300 2500
 AR Path="/60761F0E" Ref="L?"  Part="1" 
 AR Path="/60725D85/60761F0E" Ref="L1"  Part="1" 
 F 0 "L1" V 3490 2500 50  0000 C CNN
 F 1 "2.2uH 3A" V 3399 2500 50  0000 C CNN
-F 2 "Inductor_SMD:L_Bourns-SRN4018" H 3300 2500 50  0001 C CNN
+F 2 "archive:L_Bourns-SRN4018" H 3300 2500 50  0001 C CNN
 F 3 "~" H 3300 2500 50  0001 C CNN
 F 4 "BCIHP0420TB-2R2M" H 3300 2500 50  0001 C CNN "Part"
 F 5 "SRN4018-2R2M" V 3300 2500 50  0001 C CNN "PartAlt"
@@ -177,14 +177,14 @@ Wire Wire Line
 Wire Wire Line
 	2750 2500 2650 2500
 $Comp
-L Device:C_Small C?
+L archive:Device_C_Small C?
 U 1 1 60761F1F
 P 2950 3300
 AR Path="/60761F1F" Ref="C?"  Part="1" 
 AR Path="/60725D85/60761F1F" Ref="C8"  Part="1" 
 F 0 "C8" V 3000 3350 50  0000 L CNN
 F 1 "4.7uF" V 2900 3350 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 2950 3300 50  0001 C CNN
+F 2 "archive:C_0805_2012Metric" H 2950 3300 50  0001 C CNN
 F 3 "~" H 2950 3300 50  0001 C CNN
 F 4 "BQ24295" H 2950 3300 50  0001 C CNN "Variant"
 	1    2950 3300
@@ -193,7 +193,7 @@ $EndComp
 Wire Wire Line
 	3050 3300 3200 3300
 $Comp
-L power:GND #PWR?
+L archive:power_GND #PWR?
 U 1 1 60761F26
 P 3200 3300
 AR Path="/60761F26" Ref="#PWR?"  Part="1" 
@@ -211,14 +211,14 @@ Wire Wire Line
 Wire Wire Line
 	2700 3300 2850 3300
 $Comp
-L Device:R_Small R?
+L archive:Device_R_Small R?
 U 1 1 60761F30
 P 2700 3400
 AR Path="/60761F30" Ref="R?"  Part="1" 
 AR Path="/60725D85/60761F30" Ref="R7"  Part="1" 
 F 0 "R7" H 2759 3446 50  0000 L CNN
 F 1 "4.7k" H 2759 3355 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 2700 3400 50  0001 C CNN
+F 2 "archive:R_0805_2012Metric" H 2700 3400 50  0001 C CNN
 F 3 "~" H 2700 3400 50  0001 C CNN
 F 4 "BQ24295" H 2700 3400 50  0001 C CNN "Variant"
 	1    2700 3400
@@ -230,14 +230,14 @@ Wire Wire Line
 	2700 3700 2250 3700
 Connection ~ 2250 3700
 $Comp
-L Device:R_Small R?
+L archive:Device_R_Small R?
 U 1 1 60761F3A
 P 2700 3600
 AR Path="/60761F3A" Ref="R?"  Part="1" 
 AR Path="/60725D85/60761F3A" Ref="R8"  Part="1" 
 F 0 "R8" H 2759 3646 50  0000 L CNN
 F 1 "27k" H 2759 3555 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 2700 3600 50  0001 C CNN
+F 2 "archive:R_0805_2012Metric" H 2700 3600 50  0001 C CNN
 F 3 "~" H 2700 3600 50  0001 C CNN
 F 4 "BQ24295" H 2700 3600 50  0001 C CNN "Variant"
 	1    2700 3600
@@ -250,14 +250,14 @@ Connection ~ 2700 3500
 Text Notes 2700 2200 0    50   ~ 0
 2.5A max charge current
 $Comp
-L Device:Thermistor_NTC TH?
+L archive:Device_Thermistor_NTC TH?
 U 1 1 60761F46
 P 3200 3650
 AR Path="/60761F46" Ref="TH?"  Part="1" 
 AR Path="/60725D85/60761F46" Ref="TH1"  Part="1" 
 F 0 "TH1" H 3297 3741 50  0000 L CNN
 F 1 "10k NTC" H 3297 3650 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 3200 3700 50  0001 C CNN
+F 2 "archive:R_0805_2012Metric" H 3200 3700 50  0001 C CNN
 F 3 "~" H 3200 3700 50  0001 C CNN
 F 4 "B=3435K" H 3297 3559 50  0000 L CNN "Comment"
 F 5 "BQ24295" H 3200 3650 50  0001 C CNN "Variant"
@@ -265,7 +265,7 @@ F 5 "BQ24295" H 3200 3650 50  0001 C CNN "Variant"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L archive:power_GND #PWR?
 U 1 1 60761F4C
 P 3200 3800
 AR Path="/60761F4C" Ref="#PWR?"  Part="1" 
@@ -283,14 +283,14 @@ Wire Wire Line
 	3200 3500 3750 3500
 Connection ~ 3200 3500
 $Comp
-L Connector_Generic:Conn_01x02 J?
+L archive:Connector_Generic_Conn_01x02 J?
 U 1 1 60761F59
 P 3950 3500
 AR Path="/60761F59" Ref="J?"  Part="1" 
 AR Path="/60725D85/60761F59" Ref="J6"  Part="1" 
 F 0 "J6" H 4030 3537 50  0000 L CNN
 F 1 "PicoBlade" H 4030 3446 50  0000 L CNN
-F 2 "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal" H 3950 3500 50  0001 C CNN
+F 2 "archive:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal" H 3950 3500 50  0001 C CNN
 F 3 "~" H 3950 3500 50  0001 C CNN
 F 4 "NTC" H 4030 3355 50  0000 L CNN "Comment"
 F 5 "53261-0271" H 3950 3500 50  0001 C CNN "Part"
@@ -299,7 +299,7 @@ F 6 "BQ24295,DNP" H 3950 3500 50  0001 C CNN "Variant"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L archive:power_GND #PWR?
 U 1 1 60761F5F
 P 3750 3600
 AR Path="/60761F5F" Ref="#PWR?"  Part="1" 
@@ -316,14 +316,14 @@ NTC
 Wire Wire Line
 	1400 2800 1850 2800
 $Comp
-L Device:C_Small C?
+L archive:Device_C_Small C?
 U 1 1 60761F68
 P 3600 2600
 AR Path="/60761F68" Ref="C?"  Part="1" 
 AR Path="/60725D85/60761F68" Ref="C9"  Part="1" 
 F 0 "C9" H 3692 2554 50  0000 L CNN
 F 1 "22uF" H 3692 2645 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 3600 2600 50  0001 C CNN
+F 2 "archive:C_1206_3216Metric" H 3600 2600 50  0001 C CNN
 F 3 "~" H 3600 2600 50  0001 C CNN
 F 4 "BQ24295" H 3600 2600 50  0001 C CNN "Variant"
 	1    3600 2600
@@ -360,14 +360,14 @@ Wire Wire Line
 	6250 3800 6400 3800
 Connection ~ 6250 3800
 $Comp
-L Device:Q_Dual_PMOS_G1S2G2D2S1D1 Q?
+L archive:Device_Q_Dual_PMOS_G1S2G2D2S1D1 Q?
 U 2 1 60761E99
 P 6250 3600
 AR Path="/60761E99" Ref="Q?"  Part="2" 
 AR Path="/60725D85/60761E99" Ref="Q2"  Part="2" 
 F 0 "Q2" V 6592 3600 50  0000 C CNN
 F 1 "FDC6312P" V 6501 3600 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SuperSOT-6" H 6300 3600 50  0001 C CNN
+F 2 "archive:SuperSOT-6" H 6300 3600 50  0001 C CNN
 F 3 "~" H 6300 3600 50  0001 C CNN
 F 4 "FDC6312P" H 6250 3600 50  0001 C CNN "Part"
 F 5 "MCP73832" H 6250 3600 50  0001 C CNN "Variant"
@@ -375,14 +375,14 @@ F 5 "MCP73832" H 6250 3600 50  0001 C CNN "Variant"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Q_Dual_PMOS_G1S2G2D2S1D1 Q?
+L archive:Device_Q_Dual_PMOS_G1S2G2D2S1D1 Q?
 U 1 1 60761E91
 P 5850 3600
 AR Path="/60761E91" Ref="Q?"  Part="1" 
 AR Path="/60725D85/60761E91" Ref="Q2"  Part="1" 
 F 0 "Q2" V 6192 3600 50  0000 C CNN
 F 1 "FDC6312P" V 6101 3600 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SuperSOT-6" H 5900 3600 50  0001 C CNN
+F 2 "archive:SuperSOT-6" H 5900 3600 50  0001 C CNN
 F 3 "~" H 5900 3600 50  0001 C CNN
 F 4 "FDC6312P" H 5850 3600 50  0001 C CNN "Part"
 F 5 "MCP73832" H 5850 3600 50  0001 C CNN "Variant"
@@ -390,7 +390,7 @@ F 5 "MCP73832" H 5850 3600 50  0001 C CNN "Variant"
 	0    1    -1   0   
 $EndComp
 $Comp
-L power:VBUS #PWR?
+L archive:power_VBUS #PWR?
 U 1 1 60761E89
 P 5500 3800
 AR Path="/60761E89" Ref="#PWR?"  Part="1" 
@@ -403,14 +403,14 @@ F 3 "" H 5500 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D?
+L archive:Device_D D?
 U 1 1 60761E83
 P 6550 3800
 AR Path="/60761E83" Ref="D?"  Part="1" 
 AR Path="/60725D85/60761E83" Ref="D34"  Part="1" 
 F 0 "D34" H 6550 3675 50  0000 C CNN
 F 1 "1N4007" H 6550 3926 50  0001 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 6550 3800 50  0001 C CNN
+F 2 "archive:D_SOD-123" H 6550 3800 50  0001 C CNN
 F 3 "~" H 6550 3800 50  0001 C CNN
 F 4 "SOD-123 1N4007" H 6550 3800 50  0001 C CNN "Part"
 F 5 "MCP73832" H 6550 3800 50  0001 C CNN "Variant"
@@ -418,7 +418,7 @@ F 5 "MCP73832" H 6550 3800 50  0001 C CNN "Variant"
 	-1   0    0    1   
 $EndComp
 $Comp
-L project:VSYS #PWR?
+L archive:project_VSYS #PWR?
 U 1 1 60761E7B
 P 6700 3500
 AR Path="/60761E7B" Ref="#PWR?"  Part="1" 
@@ -435,7 +435,7 @@ Wire Wire Line
 Wire Wire Line
 	5500 3500 5650 3500
 $Comp
-L project:VBAT #PWR?
+L archive:project_VBAT #PWR?
 U 1 1 60761E10
 P 5500 3500
 AR Path="/60761E10" Ref="#PWR?"  Part="1" 
@@ -448,7 +448,7 @@ F 3 "" H 5500 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VBUS #PWR?
+L archive:power_VBUS #PWR?
 U 1 1 60761E74
 P 5350 2300
 AR Path="/60761E74" Ref="#PWR?"  Part="1" 
@@ -462,14 +462,14 @@ F 3 "" H 5350 2300 50  0001 C CNN
 $EndComp
 Connection ~ 5350 2300
 $Comp
-L project:MCP73832-2-MC U?
+L archive:project_MCP73832-2-MC U?
 U 1 1 60761E5F
 P 6050 2400
 AR Path="/60761E5F" Ref="U?"  Part="1" 
 AR Path="/60725D85/60761E5F" Ref="U3"  Part="1" 
 F 0 "U3" H 6050 2767 50  0000 C CNN
 F 1 "MCP73832-2-MC" H 6050 2676 50  0000 C CNN
-F 2 "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.7x1.4mm" H 6100 2150 50  0001 L CIN
+F 2 "archive:DFN-8-1EP_3x2mm_P0.5mm_EP1.7x1.4mm" H 6100 2150 50  0001 L CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf" H 5900 2350 50  0001 C CNN
 F 4 "MCP73832-2ACI/MC" H 6050 2400 50  0001 C CNN "Part"
 F 5 "MCP73832" H 6050 2400 50  0001 C CNN "Variant"
@@ -477,42 +477,42 @@ F 5 "MCP73832" H 6050 2400 50  0001 C CNN "Variant"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L archive:Device_R R?
 U 1 1 60761E57
 P 5650 2550
 AR Path="/60761E57" Ref="R?"  Part="1" 
 AR Path="/60725D85/60761E57" Ref="R9"  Part="1" 
 F 0 "R9" H 5581 2596 50  0000 R CNN
 F 1 "2k" H 5581 2505 50  0000 R CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 5580 2550 50  0001 C CNN
+F 2 "archive:R_0805_2012Metric" V 5580 2550 50  0001 C CNN
 F 3 "~" H 5650 2550 50  0001 C CNN
 F 4 "MCP73832" H 5650 2550 50  0001 C CNN "Variant"
 	1    5650 2550
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L archive:Device_C_Small C?
 U 1 1 60761E50
 P 6850 2400
 AR Path="/60761E50" Ref="C?"  Part="1" 
 AR Path="/60725D85/60761E50" Ref="C11"  Part="1" 
 F 0 "C11" H 6942 2446 50  0000 L CNN
 F 1 "4.7uF" H 6942 2355 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 6850 2400 50  0001 C CNN
+F 2 "archive:C_0805_2012Metric" H 6850 2400 50  0001 C CNN
 F 3 "~" H 6850 2400 50  0001 C CNN
 F 4 "MCP73832" H 6850 2400 50  0001 C CNN "Variant"
 	1    6850 2400
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L archive:Device_C_Small C?
 U 1 1 60761E49
 P 5350 2400
 AR Path="/60761E49" Ref="C?"  Part="1" 
 AR Path="/60725D85/60761E49" Ref="C10"  Part="1" 
 F 0 "C10" H 5258 2446 50  0000 R CNN
 F 1 "4.7uF" H 5258 2355 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 5350 2400 50  0001 C CNN
+F 2 "archive:C_0805_2012Metric" H 5350 2400 50  0001 C CNN
 F 3 "~" H 5350 2400 50  0001 C CNN
 F 4 "MCP73832" H 5350 2400 50  0001 C CNN "Variant"
 	1    5350 2400
@@ -521,7 +521,7 @@ $EndComp
 Wire Wire Line
 	6050 2700 5650 2700
 $Comp
-L power:GND #PWR?
+L archive:power_GND #PWR?
 U 1 1 60761E2F
 P 6050 2700
 AR Path="/60761E2F" Ref="#PWR?"  Part="1" 
@@ -539,7 +539,7 @@ CHGLED
 Wire Wire Line
 	6450 2400 6750 2400
 $Comp
-L power:GND #PWR?
+L archive:power_GND #PWR?
 U 1 1 60761E20
 P 5350 2500
 AR Path="/60761E20" Ref="#PWR?"  Part="1" 
@@ -556,7 +556,7 @@ Wire Wire Line
 Wire Wire Line
 	6450 2300 6850 2300
 $Comp
-L project:VBAT #PWR?
+L archive:project_VBAT #PWR?
 U 1 1 60761E18
 P 6850 2300
 AR Path="/60761E18" Ref="#PWR?"  Part="1" 
@@ -578,19 +578,19 @@ D-
 Text HLabel 1750 3200 0    50   Input ~ 0
 SCL
 $Comp
-L Device:LED LED1
+L archive:Device_LED LED1
 U 1 1 6083411E
 P 1750 5000
 F 0 "LED1" H 1743 4655 50  0000 C CNN
 F 1 "Red" H 1743 4746 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric" H 1750 5000 50  0001 C CNN
+F 2 "archive:LED_0805_2012Metric" H 1750 5000 50  0001 C CNN
 F 3 "~" H 1750 5000 50  0001 C CNN
 F 4 "0805" H 1743 4837 50  0000 C CNN "Comment"
 	1    1750 5000
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:VBUS #PWR020
+L archive:power_VBUS #PWR020
 U 1 1 60835D0E
 P 1500 5000
 F 0 "#PWR020" H 1500 4850 50  0001 C CNN
@@ -603,12 +603,12 @@ $EndComp
 Wire Wire Line
 	1600 5000 1500 5000
 $Comp
-L Device:R R6
+L archive:Device_R R6
 U 1 1 60837A0F
 P 2050 5000
 F 0 "R6" V 1843 5000 50  0000 C CNN
 F 1 "1k" V 1934 5000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 1980 5000 50  0001 C CNN
+F 2 "archive:R_0805_2012Metric" V 1980 5000 50  0001 C CNN
 F 3 "~" H 2050 5000 50  0001 C CNN
 	1    2050 5000
 	0    1    1    0   
@@ -630,24 +630,24 @@ SDA
 Text Notes 1000 1250 0    100  ~ 20
 Battery charger
 $Comp
-L Device:R_Small R12
+L archive:Device_R_Small R12
 U 1 1 609AD06A
 P 1300 4100
 F 0 "R12" H 1359 4146 50  0000 L CNN
 F 1 "10k" H 1359 4055 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 1300 4100 50  0001 C CNN
+F 2 "archive:R_0805_2012Metric" H 1300 4100 50  0001 C CNN
 F 3 "~" H 1300 4100 50  0001 C CNN
 F 4 "BQ24295" H 1300 4100 50  0001 C CNN "Variant"
 	1    1300 4100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R13
+L archive:Device_R_Small R13
 U 1 1 609AD8C9
 P 1600 4100
 F 0 "R13" H 1659 4146 50  0000 L CNN
 F 1 "10k" H 1659 4055 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 1600 4100 50  0001 C CNN
+F 2 "archive:R_0805_2012Metric" H 1600 4100 50  0001 C CNN
 F 3 "~" H 1600 4100 50  0001 C CNN
 F 4 "BQ24295" H 1600 4100 50  0001 C CNN "Variant"
 	1    1600 4100
@@ -662,7 +662,7 @@ Wire Wire Line
 Text Label 1600 4300 0    50   ~ 0
 SDA
 $Comp
-L power:+3V3 #PWR046
+L archive:power_+3V3 #PWR046
 U 1 1 609B7FC2
 P 1300 4000
 F 0 "#PWR046" H 1300 3850 50  0001 C CNN
@@ -673,7 +673,7 @@ F 3 "" H 1300 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR047
+L archive:power_+3V3 #PWR047
 U 1 1 609B86C5
 P 1600 4000
 F 0 "#PWR047" H 1600 3850 50  0001 C CNN
@@ -688,14 +688,14 @@ BTST
 Text Label 2650 2500 0    30   ~ 0
 SW
 $Comp
-L Device:C_Small C?
+L archive:Device_C_Small C?
 U 1 1 60761F18
 P 2750 2400
 AR Path="/60761F18" Ref="C?"  Part="1" 
 AR Path="/60725D85/60761F18" Ref="C7"  Part="1" 
 F 0 "C7" H 2842 2354 50  0000 L CNN
 F 1 "100nF" H 2842 2445 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 2750 2400 50  0001 C CNN
+F 2 "archive:C_0805_2012Metric" H 2750 2400 50  0001 C CNN
 F 3 "~" H 2750 2400 50  0001 C CNN
 F 4 "BQ24295" H 2750 2400 50  0001 C CNN "Variant"
 	1    2750 2400
@@ -704,7 +704,7 @@ $EndComp
 Text Label 1850 2500 2    30   ~ 0
 PMID
 $Comp
-L power:GNDPWR #PWR0104
+L archive:power_GNDPWR #PWR0104
 U 1 1 60B4E0EF
 P 3600 2700
 F 0 "#PWR0104" H 3600 2500 50  0001 C CNN
@@ -715,7 +715,7 @@ F 3 "" H 3600 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L archive:power_GND #PWR?
 U 1 1 60761E26
 P 6850 2500
 AR Path="/60761E26" Ref="#PWR?"  Part="1" 
@@ -728,19 +728,19 @@ F 3 "" H 6850 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Bridged JP100
+L archive:Jumper_SolderJumper_2_Bridged JP100
 U 1 1 60B5A24B
 P 3500 5000
 F 0 "JP100" H 3500 5113 50  0000 C CNN
 F 1 "Jumper_2_Bridged" H 3500 5104 50  0001 C CNN
-F 2 "project:GND_Tie" H 3500 5000 50  0001 C CNN
+F 2 "archive:GND_Tie" H 3500 5000 50  0001 C CNN
 F 3 "~" H 3500 5000 50  0001 C CNN
 F 4 "DNP" H 3500 5000 50  0001 C CNN "Variant"
 	1    3500 5000
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L archive:power_GND #PWR?
 U 1 1 60B5AC8A
 P 3300 5000
 AR Path="/60B5AC8A" Ref="#PWR?"  Part="1" 
@@ -755,7 +755,7 @@ $EndComp
 Wire Wire Line
 	3300 5000 3350 5000
 $Comp
-L power:GNDPWR #PWR0106
+L archive:power_GNDPWR #PWR0106
 U 1 1 60B60439
 P 3700 5000
 F 0 "#PWR0106" H 3700 4800 50  0001 C CNN
@@ -785,7 +785,7 @@ Wire Wire Line
 Wire Wire Line
 	1750 3300 1850 3300
 $Comp
-L power:GND #PWR?
+L archive:power_GND #PWR?
 U 1 1 60761EA8
 P 5850 4000
 AR Path="/60761EA8" Ref="#PWR?"  Part="1" 
@@ -798,14 +798,14 @@ F 3 "" H 5850 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L archive:Device_R_Small R?
 U 1 1 60761EA2
 P 5850 3900
 AR Path="/60761EA2" Ref="R?"  Part="1" 
 AR Path="/60725D85/60761EA2" Ref="R10"  Part="1" 
 F 0 "R10" H 5909 3946 50  0000 L CNN
 F 1 "10k" H 5909 3855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 5850 3900 50  0001 C CNN
+F 2 "archive:R_0805_2012Metric" H 5850 3900 50  0001 C CNN
 F 3 "~" H 5850 3900 50  0001 C CNN
 F 4 "MCP73832" H 5850 3900 50  0001 C CNN "Variant"
 	1    5850 3900
@@ -814,21 +814,21 @@ $EndComp
 Wire Wire Line
 	5850 3800 6250 3800
 $Comp
-L Device:C_Small C?
+L archive:Device_C_Small C?
 U 1 1 60761E42
 P 8650 2000
 AR Path="/60761E42" Ref="C?"  Part="1" 
 AR Path="/60725D85/60761E42" Ref="C12"  Part="1" 
 F 0 "C12" H 8559 2046 50  0000 R CNN
 F 1 "1uF" H 8559 1955 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 8650 2000 50  0001 C CNN
+F 2 "archive:C_0805_2012Metric" H 8650 2000 50  0001 C CNN
 F 3 "~" H 8650 2000 50  0001 C CNN
 	1    8650 2000
 	1    0    0    -1  
 $EndComp
 Connection ~ 8650 1900
 $Comp
-L project:VSYS #PWR?
+L archive:project_VSYS #PWR?
 U 1 1 60761E09
 P 8650 1900
 AR Path="/60761E09" Ref="#PWR?"  Part="1" 
@@ -841,7 +841,7 @@ F 3 "" H 8650 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L archive:power_GND #PWR?
 U 1 1 60761DF3
 P 8650 2100
 AR Path="/60761DF3" Ref="#PWR?"  Part="1" 
@@ -858,7 +858,7 @@ Wire Wire Line
 Text HLabel 9100 2000 0    50   Input ~ 0
 PWRON
 $Comp
-L power:+3V3 #PWR?
+L archive:power_+3V3 #PWR?
 U 1 1 60761DDC
 P 10000 1900
 AR Path="/60761DDC" Ref="#PWR?"  Part="1" 
@@ -873,7 +873,7 @@ $EndComp
 Wire Wire Line
 	9900 1900 10000 1900
 $Comp
-L power:GND #PWR?
+L archive:power_GND #PWR?
 U 1 1 60761DE3
 P 9500 2300
 AR Path="/60761DE3" Ref="#PWR?"  Part="1" 
@@ -886,7 +886,7 @@ F 3 "" H 9500 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L archive:power_GND #PWR?
 U 1 1 60761DFA
 P 10000 2100
 AR Path="/60761DFA" Ref="#PWR?"  Part="1" 
@@ -900,27 +900,27 @@ F 3 "" H 10000 2100 50  0001 C CNN
 $EndComp
 Connection ~ 10000 1900
 $Comp
-L Device:C_Small C?
+L archive:Device_C_Small C?
 U 1 1 60761E3C
 P 10000 2000
 AR Path="/60761E3C" Ref="C?"  Part="1" 
 AR Path="/60725D85/60761E3C" Ref="C13"  Part="1" 
 F 0 "C13" H 10092 2046 50  0000 L CNN
 F 1 "1uF" H 10092 1955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 10000 2000 50  0001 C CNN
+F 2 "archive:C_0805_2012Metric" H 10000 2000 50  0001 C CNN
 F 3 "~" H 10000 2000 50  0001 C CNN
 	1    10000 2000
 	1    0    0    -1  
 $EndComp
 $Comp
-L project:MCP1811 U?
+L archive:project_MCP1811 U?
 U 1 1 60761E6D
 P 9500 2000
 AR Path="/60761E6D" Ref="U?"  Part="1" 
 AR Path="/60725D85/60761E6D" Ref="U4"  Part="1" 
 F 0 "U4" H 9500 2342 50  0000 C CNN
 F 1 "MCP1811AT-033/OT" H 9500 2251 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 9500 2200 50  0001 C CNN
+F 2 "archive:SOT-23-5" H 9500 2200 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/MCP1811A-11B-12A-12B-Data-Sheet-20006088B.pdf" H 9500 2000 50  0001 C CNN
 F 4 "MCP1811AT-033/OT" H 9500 2000 50  0001 C CNN "Part"
 F 5 "TLV70033DDC" H 9500 2000 50  0001 C CNN "PartAlt"
@@ -928,14 +928,14 @@ F 5 "TLV70033DDC" H 9500 2000 50  0001 C CNN "PartAlt"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L archive:Device_C_Small C?
 U 1 1 60761EEE
 P 1600 2500
 AR Path="/60761EEE" Ref="C?"  Part="1" 
 AR Path="/60725D85/60761EEE" Ref="C6"  Part="1" 
 F 0 "C6" V 1750 2450 50  0000 R CNN
 F 1 "22uF" V 1550 2550 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 1600 2500 50  0001 C CNN
+F 2 "archive:C_1206_3216Metric" H 1600 2500 50  0001 C CNN
 F 3 "~" H 1600 2500 50  0001 C CNN
 F 4 "BQ24295" H 1600 2500 50  0001 C CNN "Variant"
 	1    1600 2500
